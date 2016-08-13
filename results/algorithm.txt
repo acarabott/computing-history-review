@@ -1,0 +1,883 @@
+./data/02-stanford/core.txt
+	CS106B introduces students to many fundamental programming concepts and software engineering techniques using the C++ language. The course will focus on teaching problem solving skills, basic abstract data typs, and recursion. General topics include basic programming methodology (engineering, modularity, documentation), data abstractions (stacks, queues, linked lists, hash tables, binary trees, generics and templates), recursion (procedural, backtracking), searching and sorting, and basic algorithmic analysis (including Big-Oh notation).
+Data Structures and Algorithms (CS161)
+CS161 gives students the tools to analyze data structures and algorithms. Students will also practice devising algorithms for various problems. These skills are widely applicable and alumni report CS161 as one of the most useful classes at Stanford. Topics include algorithmic complexity analysis (Big Oh, Omega, Theta), recurrence relations, and the master method. In addition, students learn about several different classes of algorithms and data structures, including randomized algorithms, divide and conquer strategies, greedy algorithms, hasing, heaps, graph algorithms, and search algorithms (including blind and A* search).
+
+./data/08-eth-zurich/eth.txt
+	During the first year of study, students work on establishing a sound basis in mathematics, programming, and algorithmics while learning the basic principles of computer systems. All first year courses are compulsory and a total of 56 credits are earned.
+Data structures and algorithms (7 credits)
+Algorithms and probability (7 credits)
+
+./data/10-princeton/princeton.txt
+	Software and algorithms
+Reading:  Chapter 4 of D is for Digital: Algorithms 
+            An introduction to computer science in the context of scientific, engineering, and commercial applications. The course will teach basic principles and practical issues, and will prepare students to use computers effectively for applications in computer science, physics, biology, chemistry, engineering, and other disciplines. Topics include: hardware and software systems; programming in Java; algorithms and data structures; fundamental principles of computation; and scientific computing, including simulation, optimization, and data analysis. No prior programming experience required. Video lectures, one or two classes, two preceptorials.      
+Algorithms and Data Structures
+Advanced Algorithm Design
+Proofs, beliefs and algorithms through the lens of Sum of Squares
+Algorithms and Data Structures
+Theory of Algorithms
+
+./results/history.txt
+	    • be familiar with several key algorithms from the history of numerical analysis;
+
+./data/01-mit/m6a.html
+	Introduction to computer science and programming for students with little or no programming experience.  Students learn how to program and how to use computational techniques to solve problems.  Topics include software design, algorithms, data analysis, and simulation techniques.  Assignments are done using the Python programming language. Meets with 6.0001 first half of term and 6.0002 second half of term. Credit cannot also be received for 6.0001 or 6.0002. Final given during final exam week.
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.0001 and 6.0002 counts as REST subject. Final given in the seventh week of the term.
+6.006 Introduction to Algorithms
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
+Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure; graphical representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Substantial computational laboratory component explores the concepts introduced in class in the context of realistic contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion and tail recursion. Lab component consists of software design, construction, and implementation of design.
+Studies key concepts, systems, and algorithms to reliably communicate data in settings ranging from the cellular phone network and the Internet to deep space. Weekly laboratory experiments explore these areas in depth. Topics presented in three modules - bits, signals, and packets - spanning the multiple layers of a communication system. Bits module includes information, entropy, data compression algorithms, and error correction with block and convolutional codes. Signals module includes modeling physical channels and noise, signal design, filtering and detection, modulation, and frequency-division multiplexing. Packets module includes switching and queuing principles, media access control, routing protocols, and data transport protocols.
+Introduces representations, methods, and architectures used to build applications and to account for human intelligence from a computational point of view. Covers applications of rule chaining, constraint propagation, constrained search, inheritance, statistical inference, and other problem-solving paradigms. Also addresses applications of identification trees, neural nets, genetic algorithms, support-vector machines, boosting, and other learning paradigms. Considers what separates human intelligence from that of other animals.
+Introduces principles, algorithms, and applications of machine learning from the point of view of modeling and prediction; formulation of learning problems; representation, over-fitting, generalization; clustering, classification, probabilistic modeling; and methods such as support vector machines, hidden Markov models, and Bayesian networks.
+Provides an introduction to some of the central ideas of theoretical computer science, including circuits, finite automata, Turing machines and computability, efficient algorithms and reducibility, the P versus NP problem, NP-completeness, the power of randomness, cryptography, computational learning theory, and quantum computing. Examines the classes of problems that can and cannot be solved in various computational models.
+6.046[J] Design and Analysis of Algorithms
+Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics may include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.
+Covers the algorithmic and machine learning foundations of computational biology, combining theory with practice. Principles of algorithm design, influential problems and techniques, and analysis of large-scale biological datasets. Topics include (a) genomes: sequence analysis, gene finding, RNA folding, genome alignment and assembly, database search; (b) networks: gene expression analysis, regulatory motifs, biological network analysis; (c) evolution: comparative genomics, phylogenetics, genome duplication, genome rearrangements, evolutionary theory.  These are coupled with fundamental algorithmic techniques including: dynamic programming, hashing, Gibbs sampling, expectation maximization, hidden Markov models, stochastic context-free grammars, graph clustering, dimensionality reduction, Bayesian networks.
+Explores the ultimate limits to communication and computation, with an emphasis on the physical nature of information and information processing. Topics include information and computation, digital signals, codes, and compression. Biological representations of information. Logic circuits, computer architectures, and algorithmic information. Noise, probability, and error correction. The concept of entropy applied to channel capacity and to the second law of thermodynamics. Reversible and irreversible operations and the physics of computation. Quantum computation.
+Introduction to embedded systems in the context of connected devices, wearables and the "Internet of Things". Topics include microcontrollers, energy utilization, algorithmic efficiency, interfacing with sensors, networking, cryptography, local versus distributed computation, data analytics, and 3D printing. Students will design, make, and program an internet-connected wearable device. Final project where student teams will design and demo their own cloud-connected wearable system. Licensed for Spring 2016 by the Committee on Curricula. Enrollment limited; preference to first- and second-year students.
+Presents concepts, principles, and algorithms for sensing and computation related to the physical world. Topics include motion planning, geometric reasoning, kinematics and dynamics, state estimation, tracking, map building, manipulation, human-robot interaction, fault diagnosis, and embedded system development. Students specify and design a small-scale yet complex robot capable of real-time interaction with the natural world. Students engage in extensive written and oral communication exercises. Enrollment limited.
+Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming. Students taking graduate version complete additional assignments.
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
+Core analytical issues of continuous optimization, duality, and saddle point theory, and development using a handful of unifying principles that can be easily visualized and readily understood. Discusses in detail the mathematical theory of convex sets and functions which are the basis for an intuitive, highly visual, geometrical approach to the subject. Convex optimization algorithms focus on large-scale problems, drawn from several types of applications, such as resource allocation and machine learning. Includes batch and incremental subgradient, cutting plane, proximal, and bundle methods.
+Introduces the principal algorithms for linear, network, discrete, robust, nonlinear, dynamic optimization and optimal control. Emphasizes methodology and the underlying mathematical structures. Topics include the simplex method, network flow methods, branch and bound and cutting plane methods for discrete optimization, optimality conditions for nonlinear optimization, interior point methods for convex optimization, Newton's method, heuristic methods, and dynamic programming and optimal control methods.
+Introduction to modern heterogeneous networks and the provision of heterogeneous services. Architectural principles, analysis, algorithmic techniques, performance analysis, and existing designs are developed and applied to understand current problems in network design and architecture. Begins with basic principles of networking. Emphasizes development of mathematical and algorithmic tools; applies them to understanding network layer design from the performance and scalability viewpoint. Concludes with network management and control, including the architecture and performance analysis of interconnected heterogeneous networks. Provides background and insight to understand current network literature and to perform research on networks with the aid of network design projects.
+
+./data/01-mit/m6b.html
+	Unified introduction to the theory and practice of modern, near linear-time, numerical methods for large-scale partial-differential and integral equations. Topics include preconditioned iterative methods; generalized Fast Fourier Transform and other butterfly-based methods; multiresolution approaches, such as multigrid algorithms and hierarchical low-rank matrix decompositions; and low and high frequency Fast Multipole Methods. Example applications include aircraft design, cardiovascular system modeling, electronic structure computation, and tomographic imaging.
+Advanced introduction to numerical linear algebra and other central algorithms of scientific computation. Topics include direct and iterative methods for linear systems, eigenvalue and QR/SVD factorizations, stability and accuracy, floating-point arithmetic, sparse matrices, preconditioning, and the memory considerations underlying modern linear-algebra software. Techniques for local and global nonlinear optimization, including quasi-Newton methods, trust regions, branch-and-bound, and multistart algorithms. Chebyshev approximations, numerical integration, and FFTs. A modern high-level language, Julia, is introduced for problem sets.
+Representation, analysis, and design of discrete time signals and systems. Decimation, interpolation, and sampling rate conversion. Noise shaping. Flowgraph structures for DT systems. Lattice filters. Time- and frequency-domain design techniques for IIR and FIR filters. Parametric signal modeling, linear prediction, and the relation to lattice filters. Discrete Fourier transform (DFT). Computation of the DFT including FFT algorithms. Short-time Fourier analysis and relation to filter banks.  Multirate techniques. Perfect reconstruction filter banks and their relation to wavelets.
+6.438 Algorithms for Inference
+Introduction to statistical inference with probabilistic graphical models.  Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems.  Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing.  Min-sum and Viterbi algorithms.  Variational methods, mean-field theory, and loopy belief propagation.  Particle methods and filtering.  Building graphical models from data, including parameter estimation and structure learning; Baum-Welch and Chow-Liu algorithms.   Selected special topics.
+Introduces the theory of error-correcting codes. Focuses on the essential results in the area, taught from first principles. Special focus on results of asymptotic or algorithmic significance. Principal topics include construction and existence results for error-correcting codes; limitations on the combinatorial performance of error-correcting codes; decoding algorithms; and applications to other areas of mathematics and computer science.
+Examines quantum computation and quantum information. Topics include quantum circuits, the quantum Fourier transform and search algorithms, the quantum operations formalism, quantum error correction, Calderbank-Shor-Steane and stabilizer codes, fault tolerant quantum computation, quantum data compression, quantum entanglement, capacity of quantum channels, and quantum cryptography and the proof of its security. Prior knowledge of quantum mechanics required.
+Introduction to design, analysis, and fundamental limits of wireless transmission systems.  Wireless channel and system models; fading and diversity; resource management and power control; multiple-antenna and MIMO systems; space-time codes and decoding algorithms; multiple-access techniques and multiuser detection; broadcast codes and precoding; cellular and ad-hoc network topologies; OFDM and ultrawideband systems; architectural issues.
+Student-run advanced graduate seminar with focus on topics in  communications, control, signal processing, optimization. Participants give presentations outside of their own research to expose colleagues to topics not covered in the usual curriculum. Recent topics have included compressed sensing, MDL principle, communication complexity, linear programming decoding, biology in EECS, distributed hypothesis testing, algorithms for random satisfaction problems, and cryptogaphy.  Open to advanced students from all areas of EECS. Limited to 12.
+Adaptive and non-adaptive processing of signals received at arrays of sensors. Deterministic beamforming, space-time random processes, optimal and adaptive algorithms, and the sensitivity of algorithm performance to modeling errors and limited data. Methods of improving the robustness of algorithms to modeling errors and limited data are derived.  Advanced topics include an introduction to matched field processing and physics-based methods of estimating signal statistics. Homework exercises providing the opportunity to implement and analyze the performance of algorithms in processing data supplied during the course.
+6.503 Foundations of Algorithms and Computational Techniques in Systems Biology
+Illustrates computational approaches to solving problems in systems biology. Uses a series of case studies to demonstrate how an effective match between the statement of a biological problem and the selection of an appropriate algorithm or computational technique can lead to fundamental advances. Covers several discrete and numerical algorithms used in simulation, feature extraction, and optimization for molecular, network, and systems models in biology. Students taking graduate version complete additional assignments.
+Fundamentals of digital signal processing with particular emphasis on problems in biomedical research and clinical medicine. Basic principles and algorithms for data acquisition, imaging, filtering, and feature extraction. Laboratory projects provide practical experience in processing physiological data, with examples from cardiology, speech processing, and medical imaging.
+6.581[J] Foundations of Algorithms and Computational Techniques in Systems Biology
+Illustrates computational approaches to solving problems in systems biology. Uses a series of case studies to demonstrate how an effective match between the statement of a biological problem and the selection of an appropriate algorithm or computational technique can lead to fundamental advances. Covers several discrete and numerical algorithms used in simulation, feature extraction, and optimization for molecular, network, and systems models in biology. Students taking graduate version complete additional assignments.
+
+./data/01-mit/m6c.html
+	Introduction to computational theories of human cognition. Focus on principles of inductive learning and inference, and the representation of knowledge. Computational frameworks covered include Bayesian and hierarchical Bayesian models; probabilistic graphical models; nonparametric statistical models and the Bayesian Occam's razor; sampling algorithms for approximate learning and inference; and probabilistic models defined over structured representations such as first-order logic, grammars, or relational schemas. Applications to understanding core aspects of cognition, such as concept learning and categorization, causal reasoning, theory formation, language acquisition, and social inference. Graduate students complete a final project.
+Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization. Students taking graduate version complete additional assignments.
+Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Covers topics complementary to 6.801. Students taking graduate version complete additional assignments.
+Algorithms and paradigms for creating a wide range of robotic systems that act intelligently and robustly, by reasoning extensively from models of themselves and their world.  Examples range from autonomous Mars explorers and cooperative air vehicles, to everyday embedded devices.  Topics include deduction and search in real-time; temporal, decision-theoretic and contingency planning; dynamic execution and re-planning; reasoning about hidden state and failures; reasoning under uncertainty, path planning, mapping and localization, and cooperative and distributed robotics.
+Introduction to computer graphics algorithms, software and hardware.  Topics include ray tracing, the graphics pipeline, transformations,  texture mapping, shadows, sampling, global illumination, splines,  animation and color.
+Introduction to parallel and multicore computer architecture and programming.  Topics include the design and implementation of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models, including shared memory, streams, message passing, and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading.  Performance evaluation of multicores; compilation and runtime systems for parallel computing.  Substantial project required.
+6.849 Geometric Folding Algorithms: Linkages, Origami, Polyhedra
+Covers discrete geometry and algorithms underlying the reconfiguration of foldable structures, with applications to robotics, manufacturing, and biology. Linkages made from one-dimensional rods connected by hinges: constructing polynomial curves, characterizing rigidity, characterizing unfoldable versus locked, protein folding. Folding two-dimensional paper (origami): characterizing flat foldability, algorithmic origami design, one-cut magic trick. Unfolding and folding three-dimensional polyhedra: edge unfolding, vertex unfolding, gluings, Alexandrov's Theorem, hinged dissections.
+Introduction to the design and analysis of algorithms for geometric problems, in low- and high-dimensional spaces. Algorithms: convex hulls, polygon triangulation, Delaunay triangulation, motion planning, pattern matching. Geometric data structures: point location, Voronoi diagrams, Binary Space Partitions. Geometric problems in higher dimensions: linear programming, closest  pair problems. High-dimensional nearest neighbor search and low-distortion embeddings between metric spaces. Geometric algorithms for massive data sets: external memory and streaming algorithms. Geometric optimization.
+More advanced and powerful data structures for answering several queries on the same data. Such structures are crucial in particular for designing efficient algorithms. Dictionaries; hashing; search trees. Self-adjusting data structures; linear search; splay trees; dynamic optimality. Integer data structures; word RAM. Predecessor problem; van Emde Boas priority queues; y-fast trees; fusion trees. Lower bounds; cell-probe model; round elimination. Dynamic graphs; link-cut trees; dynamic connectivity. Strings; text indexing; suffix arrays; suffix trees. Static data structures; compact arrays; rank and select. Succinct data structures; tree encodings; implicit data structures. External-memory and cache-oblivious data structures; B-trees; buffer trees; tree layout; ordered-file maintenance. Temporal data structures; persistence; retroactivity.
+6.852[J] Distributed Algorithms
+Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation.
+6.853 Topics in Algorithmic Game Theory
+Presents research topics at the interface of computer science and game theory, with an emphasis on algorithms and computational complexity. Explores the types of game-theoretic tools that are applicable to computer systems, the loss in system performance due to the conflicts of interest of users and administrators, and the design of systems whose performance is robust with respect to conflicts of interest inside the system. Algorithmic focus is on algorithms for equilibria, the complexity of equilibria and fixed points, algorithmic tools in mechanism design, learning in games, and the price of anarchy.
+6.854[J] Advanced Algorithms
+First-year graduate subject in algorithms. Emphasizes fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Surveys a variety of computational models and the algorithms for them. Data structures, network flows, linear programming, computational geometry, approximation algorithms, online algorithms, parallel algorithms, external memory, streaming algorithms.
+6.856[J] Randomized Algorithms
+Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms.
+In-depth treatment of the modern theory of integer programming and combinatorial optimization, emphasizing geometry, duality, and algorithms. Topics include formulating problems in integer variables, enhancement of formulations, ideal formulations, integer programming duality, linear and semidefinite relaxations, lattices and their applications, the geometry of integer programming, primal methods, cutting plane methods, connections with algebraic geometry, computational complexity, approximation algorithms, heuristic and enumerative algorithms, mixed integer programming and solutions of large-scale problems.
+Provides students with the knowledge needed to use and develop advanced machine learning solutions to challenging problems. Covers foundations and recent advances of machine learning in the framework of statistical learning theory. Focuses on regularization techniques key to high-dimensional supervised learning. Starting from classical methods such as regularization networks and support vector machines, addresses state-of-the-art techniques based on principles such as geometry or sparsity, and discusses a variety of algorithms for supervised learning, feature selection, structured prediction, and multitask learning. Also focuses on unsupervised learning of data representations, with an emphasis on hierarchical (deep) architectures.
+Explores the relationship between computer representation of knowledge and the structure of natural language. Emphasizes development of analytical skills necessary to judge the computational implications of grammatical formalisms, and uses concrete examples to illustrate particular computational issues. Efficient parsing algorithms for context-free grammars; Treebank grammars and statistical parsing. Question answering systems. Extensive laboratory work on building natural language processing systems.  8 Engineering Design Points. 
+Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems, and summarization. Students taking graduate version complete additional assignments.
+Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, and Bayesian networks. Recommended prerequisite: 6.036.
+Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Covers topics complementary to 6.866. Students taking graduate version complete additional assignments.
+Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming. Students taking graduate version complete additional assignments.
+Presents advanced machine learning and algorithmic approaches for contemporary problems in biology drawing upon recent advances in the literature.   Topics include biological discovery in heterogeneous cellular populations; single cell data analysis; regulatory factor binding; motif discovery; gene expression analysis; regulatory networks (discovery, validation, data integration, protein-protein interactions, signaling, chromatin accessibility analysis); predicting phenotype from genotype; and experimental design (model validation, interpretation of interventions).  Computational methods presented include deep learning, dimensionality reduction, clustering, directed and undirected graphical models, significance testing, Dirichlet processes, and topic models. Multidisciplinary team-oriented final research project.
+
+./data/03-oxford/adsa.html
+	      content="Department of Computer Science, 2016-2017, adsa, Algorithms and Data Structures">
+Algorithms and Data Structures
+Algorithms and Data Structures
+Algorithms and Data Structures: 
+         OverviewThis course builds on the first-year Design and Analysis of Algorithms course.  It introduces students to a number of highly
+         efficient algorithms and data structures for fundamental computational problems across a variety of areas. Students are also
+         Understand the implementation, complexity analysis and applications of fundamental  algorithms such as max flow, linear
+         Have some familiarity with randomised algorithms, approximation algorithms, and fixed parameter algorithms 
+Approximation algorithms
+Randomised algorithms
+Exponential algorithms 
+Thomas Cormen, Charles Leiserson, Ronald Rivest and Clifford Stein, Introduction to Algorithms, MIT Press, 2009
+          S. Dasgupta, C.H. Papadimitriou, and U. V. Vazirani, Algorithms, Mcgraw-Hill, 2006.
+J. Kleinberg and E. Tardos, Algorithm Design, Addison-Wesley, 2006.
+V. Vazirani, Approximation Algorithms, Springer, 2001
+Algorithms and Data Structures
+
+./data/03-oxford/advsec.html
+	 Xiaofeng Chen, Willy Susilo, Jin Li, Duncan Wong, Jianfeng Ma, Shaohua Tang, and Qiang Tang (2015) "Efficient algorithms
+
+./data/03-oxford/algdesign.html
+	      content="Department of Computer Science, 2016-2017, algdesign, Design and Analysis of Algorithms">
+Design and Analysis of Algorithms
+Design and Analysis of Algorithms
+Design and Analysis of Algorithms: 
+         OverviewThis core course covers good principles of algorithm design, elementary analysis of algorithms, and fundamental data structures.
+         The emphasis is on choosing appropriate data structures and designing correct and efficient algorithms to operate on these
+         Learning outcomesThis is a first course in data structures and algorithm design.  Students will:       learn good principles
+         of algorithm design;     learn how to analyse algorithms and estimate their worst-case and average-case behaviour
+         can best be implemented;      become accustomed to the description of algorithms in both functional and procedural styles;
+         exponential growth. Asymptotic estimates of costs for simple algorithms. Use of induction and generating functions. [2]
+Algorithm design strategies: top down design, divide and conquer. Application to sorting and searching and to matrix algorithms.
+         Introduction to discrete optimisation algorithms:  dynamic programming, greedy algorithms, shortest path problems.
+         Graph algorithms: examples of depth-first and breadth-first search algorithms. Topological sorting, connected components.
+         SyllabusBasic strategies of algorithm design: top-down design, divide and conquer, average and  worst-case criteria, asymptotic costs.
+         heaps,  priority queues, graphs, hash tables. Applications to sorting and searching, matrix  algorithms, shortest-path and
+         spanning tree problems. Introduction to discrete optimisation  algorithms: dynamic programming, greedy algorithms. Graph algorithms:
+         Reading list  T. H. Cormen, C. E. Leiserson, R. L. Rivest and C. Stein. Introduction to Algorithms, 3rd edition,
+         course.  M. T. Goodrich and R. Tommassia.  Algorithm Design, Wiley, 2002.   S. Dasgupta,
+         C. Papadimitriou, and U. Vazirani. Algorithms. McGraw-Hill Higher Education. 2006  
+Design and Analysis of Algorithms
+
+./data/03-oxford/aml.html
+	         order to provide guarantees about the behaviour of learning algorithms and also
+         as generalisation guarantees, fundamental algorithms, and methods to analyse
+         learning algorithms. We will cover questions such as when can we generalise
+         well from limited amounts of data, how can we develop algorithms that are
+         trade-offs in learning algorithms. We will also discuss new models designed to
+         algorithms, and complexity.
+         Algorithms and Data Structures
+Learning with membership queries, Angluin's algorithm
+Shai Shalev-Shwartz and Shai Ben-David. Understanding Machine Learning: From Theory to Algorithms. Cambridge University
+
+./data/03-oxford/animation.html
+	 Collision detection and response. Dealing with simple geometries. The GJK algorithm. Dealing with large scenes. Physical
+         Computer Animation: Algorithms and Techniques, 2nd Edition ISBN: 0125320000 Rick Parent 47 GBP 
+
+./data/03-oxford/automatalogicgames.html
+	         memoryless determinacy, algorithmic issues.
+
+./data/03-oxford/cads.html
+	      content="Department of Computer Science, 2016-2017, cads, Concurrent Algorithms and Data Structures">
+Concurrent Algorithms and Data Structures
+Concurrent Algorithms and Data Structures
+Concurrent Algorithms and Data Structures: 
+         the algorithms cleaner. Students should be able to understand programs written in either language, and be efficient at coding
+                  Concurrent Algorithms and Data Structures
+
+./data/03-oxford/cgt.html
+	         which test the boundaries of current algorithmic techniques. This course aims to introduce the key concepts of game theory
+         Mixed strategies; Nash’s theorem; -Nash equilibrium.• Computing mixed strategy Nash equilibria: the Lemke-Howson algorithm.•
+         4. Extensive Form Non-Cooperative Games:• Extensive form games of perfect information; Zermelo’s algorithm and
+         backward induction; P-completeness of Zermelo’s algorithm; subgame perfect equilibrium.• Win-lose games; Zermelo’s theorem.•
+         for them; hedonic games.• Coalition structure formation; exact and approximation algorithms.
+         possible examples include:• algorithmic mechanism design & auctions;• selfish routing, the price of anarchy;•
+
+./data/03-oxford/compilers.html
+	 Learning outcomesOn completion, the students should be able to:      * Understand and explain the main techniques and algorithms
+
+./data/03-oxford/complexity.html
+	 [1 lecture] Introduction. Easy and hard problems. Algorithms and complexity.  
+         Polytime algorithms: 2-satisfiability, 2-colourability. 
+SyllabusTuring machines, decision problems, time and space complexity, polynomial time algorithms, NP and NP-completeness, standard
+         time and space complexity classes, optimization problems and approximation algorithms, randomised algorithms and complexity
+         T H Cormen, S Clifford, C E Leiserson and R L Rivest. Introduction to Algorithms, MIT Press, Second edition, 2001. 
+Vijay V. Vazirani. Approximation Algorithms, Springer, Second edition, 2003.
+
+./data/03-oxford/computeraidedverification.html
+	         computer algorithms are used to search for and check them. Properties are formalised as formulae in proper temporal logics.
+
+./data/03-oxford/concurrency.html
+	 OverviewComputer networks, multiprocessors and parallel algorithms, though radically different, all provide examples of processes
+
+./data/03-oxford/cqm.html
+	 Manipulate quantum algorithms in the ZX-calculus. 
+
+./data/03-oxford/databasesystemsimplementation.html
+	 OverviewThis course examines the data structures and algorithms underlying database management systems such as Oracle or PostgreSQL.
+         sorting/searching techniques (quick/merge sorts, binary trees, hash tables - course on Design and Analysis of Algorithms)
+         plans; cost estimation; nested queries; join optimization algorithms (dynamic programming and greedy join enumeration approaches);
+
+./data/03-oxford/digitalsystems.html
+	 T. H. Cormen, E. E. Leiserson and R. L. Rivest, Introduction to Algorithms,   first edition only, The
+
+./data/03-oxford/discretemaths.html
+	         of mathematical logic, and to use proof techniques such as induction. And to reason about the efficiency of an algorithm,
+         addition, multiplication, and exponentation (mod n); Euclid's algorithm, binary MOD and DIV functions, multiplicative inverses
+         times of common algorithms. Proofs of sentences of the form (exists x.forall y.P) with examples of asymptotic behaviour proofs
+         Recurrence relations arising from combinatorial problems. Modular arithmetic, Euclid's algorithm, and applications.
+
+./data/03-oxford/dl.html
+	         optimisation algorithms. The course will cover a range of applications of neural networks in NLP including analysing latent
+         Be able to derive and implement optimisation algorithms for these models 
+ Simple Recurrent Neural Networks: model definition; the backpropagation through time optimisation algorithm; small scale
+
+./data/03-oxford/geomod.html
+	         and Algorithms, Springer 2009, ISBN 978-1-84882-405-8  (not compulsory) 
+T H Cormen, C E Leiserson and R L Rivest, Introduction to  Algorithms, MIT Press, 1990. (general algorithms and
+
+./data/03-oxford/graphics.html
+	 Essential algorithms: line  generation, solid area display, transformations, clipping, projection  (4). 
+
+./data/03-oxford/imperativeprogramming1.html
+	 Understand the imperative implementation of some common algorithms.
+
+./data/03-oxford/intellsystems.html
+	         solved by search techniques introduced in the course such as hill climbing, simulated annealing, and genetic algorithms.
+         Local search: hill-climbing; simulated annealing; genetic algorithms; local search in continuous spaces.
+Dealing with geometry of physical agents: basic issues in robotics; degrees of freedom; Dijkstra’s shortest path algorithm;
+         Playing games: game tree; utility function; optimal strategies; minimax algorithm; alpha-beta pruning; games with an element
+
+./data/03-oxford/KRR.html
+	 master the fundamentals of the reasoning algorithms underlying current systems; 
+
+./data/03-oxford/lambda.html
+	         correctness of a principal type algorithm. 
+Chapter 5 (2 lectures)Untyped combinatory algebras. Abstraction algorithm, combinatory completeness,
+         Type substitutions and unification, Robinson's algorithm, the matching problem. Principal Type algorithm and correctness.
+         Algorithm
+
+./data/03-oxford/linearalgebra.html
+	         geometry and numerical algorithms.The course will provide insight into how linear algebra theorems and results, sometimes
+         of a vector space.  Orthogonal vectors and subspaces.  The Gram-Schmidt algorithm.
+
+./data/03-oxford/logicandproof.html
+	         constraint solving, programming and automated verification, among many others.  We also highlight algorithmic problems
+         Polynomial-time algorithms: Horn formulas, 2-SAT, WalkSAT, and XOR-clauses.
+
+./data/03-oxford/ml.html
+	         prognosis, automatic algorithm configuration, personalisation, robot control, time series forecasting, and much more. Learning
+         learning. In supervised learning we will discuss algorithms which are trained on input data labelled with a desired output,
+         an example of which is grouping web-pages based on the topics they discuss. Students will learn the algorithms which underpin
+         these algorithms. The practicals will concern the application of machine learning to a range of real-world problems.
+         probability and algorithms. If you have not take the following courses (or their equivalents) you should talk to the instructor
+         Design and Analysis of Algorithms
+Mixture Models: EM Algorithm, Topic Modelling
+
+./data/03-oxford/oop.html
+	 [13] Dijkstra's algorithm. Representing the model.
+[14] Implementing Dijkstra's algorithm. Priority queues.  Speeding up the program.
+[15-16] A graphical interface. for animating Disjkstra's algorithm.
+
+./data/03-oxford/principles.html
+	 Translation between recursive and iterative algorithms in a simple   functional language.
+
+./data/03-oxford/probabilistic.html
+	         randomised algorithms, communication and security protocols, computer networks, biological signalling pathways, and many others.
+         protocols and algorithms for contract signing and power management.
+         probabilistic model checking; Be able to apply the basic algorithms used to perform these techniques; Be
+         decision processes, continuous-time Markov chains; probabilistic temporal logics: PCTL, CSL, LTL; model checking algorithms
+
+./data/03-oxford/probability.html
+	         to computer science, focusing on randomised algorithms and the probabilistic analysis of algorithms. Randomisation and probabilistic
+         structures, networks and machine learning. Randomised algorithms, which typically guarantee a correct result only with high
+         probability, are often simpler and faster than corresponding deterministic algorithms. Randomisation can also be used to break
+         to devise and analyse randomised algorithms and carry out the probabilistic analysis of deterministic algorithms.Understand
+         some of the main paradigms in the design of randomised algorithms, including random sampling, random walks, random rounding,
+         PrerequisitesExposure to probability theory, discrete mathematics, algorithms and linear algebra will be assumed.  Specific concepts
+         variables, expectation, basic graph theory, the binomial theorem, finite fields, power series, sorting algorithms, asymptotic
+         in algorithms will not be at a significant disadvantage.  Diligent students lacking some of the required background but willing
+         material is also taken from the book "Randomized Algorithms" by Motwani and Raghavan.  It is expected that the following will
+         Quicksort. Moments and Deviations: Chebyshev, median finding. Chernoff Bounds: Las Vegas and Monte Carlo algorithms,
+         finding cuts, derandomisation, sampling. Markov Chains: Random-walk algorithms for 2-SAT, 3-SAT, random-walks on graphs.  Markov Chain Coupling: Metropolis Algorithm, variation distance, mixing times.
+Applications: Sorting and searching; graph algorithms; combinatorial optimisation; propositional satisfiability; hashing;
+         University Press.  Also useful: Randomized Algorithms, by Rajeev Motwani and Prabhakar
+         Raghavan, Cambridge University Press.  Design and Analysis of Randomized Algorithms, by Juraj Hromkovic, Springer.  
+
+./data/03-oxford/quantum.html
+	         principle), and introduces qubits. We give detailed discussions of some key algorithms and protocols such as Grover's search
+         algorithm and Shor's factorisation algorithm, quantum teleportation and quantum key exchange.At the same time, this
+         knowledge of important algorithms such as Grover's and Shor's algorithm and important protocols such as quantum teleportation.
+
+./data/03-oxford/security.html
+	         other security properties; attacks on iterative algorithms. Hashes for password storage and key generation: offline attacks,
+
+./data/03-oxford/visual.html
+	         in visualization design and methods for algorithmic development, in conjunction with a close examination of several important
+         mathematics, probability, and algorithm complexity. Students are also expected to be competent in programming, and if required,
+         Visual analytics pipelines: statistics, algorithms, visualization, interaction... 
+
+./data/04-harvard/harvard-01.html
+	Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Des
+Data Structures and Algorithms
+Design and analysis of efficient algorithms and data structures. Algorithm design methods, graph algorithms, approximation algorithms, and randomized algorithms are covered.
+Algorithms and Complexity
+An accelerated introduction to theoretical computer science for students with strong mathematical preparation, to be taken in place of both Computer Science 121 and 124. Algorithm design methods, including graph algorithms, approximation algorithms, and randomized algorithms. Models of computation, computability theory, and computational complexity, including the P vs. NP question.
+Networks—of social relationships, economic interdependencies, and digital interactions—are critical in shaping our lives. This course introduces models and algorithms that help us understand networks. Fundamental concepts from applied mathematics, microeconomics, and computer science will be presented through the lens of network science, in order to equip students to usefully analyze the “big data” generated by online networks. Applications discussed include the viral spr
+Implementation of efficient interpreters and compilers for programming languages. Associated algorithms and pragmatic issues. Emphasizes practical applications including those outside of programming languages proper. Also shows relationships to programming-language theory and design. Participants build a working compiler including lexical analysis, parsing, type checking, code generation, and register allocation. Exposure to run-time issues and optimization.
+Introduction to AI focused on problems in reasoning about action and rational decision making, covering search, knowledge representation and planning. Search: heuristics, informed search and optimization; constraint satisfaction; game playing. Knowledge representation: logics, efficient logical inference, reasoning about categories. Planning: action representations and planning algorithms, hierarchical task networks, sequential decision making. Applications to multi-agent systems, robotics and n
+An applications course highlighting the use of computers in solving scientific problems. Students will be exposed to fundamental computer science concepts such as computer architectures, data structures, algorithms, and parallel computing. Fundamentals of scientific computing including abstract thinking, algorithmic development, and assessment of computational approaches. Students will learn to use open source tools and libraries and apply them to data analysis, modeling, and visualization of re
+Algorithms at the Ends of the Wire
+Covers topics related to algorithms for big data, especially related to networks. Themes include compression, cryptography, coding, and information retrieval related to the World Wide Web. Requires a major final project.
+[Probabilistic Analysis and Algorithms]
+Probabilistic techniques and tools for the design and analysis of algorithms. Designed for all first-year graduate students in all areas.
+Advanced Algorithms
+Advanced algorithm design, including but not limited to amortization, randomization, online algorithms, graph algorithms, approximation algorithms, linear programming, and data structures.
+Proofs, Beliefs and Algorithms through the lens of Sum of Squares
+Introduces essential elements the theory of error-correcting codes. Focuses on the basic results in the area, taught from first principles. Special focus will be given on results of asymptotic or algorithmic significance. Principal topics include    - Construction and existence results for error-correcting codes;    - Limitations on the combinatorial performance of error-correcting codes;    - Decoding algorithms    - Applications to ot
+Topics on the design and analysis of algorithms, processes, and systems related to crowds and social networks. Readings in AI, theoretical CS, machine learning, social science theory, economic theory, and operations research.
+
+./data/04-harvard/harvard-02.html
+	Big data is everywhere. A fundamental goal across numerous modern businesses and sciences is to be able to exploit as many machines as possible, to consume as much information as possible and as fast as possible. The big challenge is "how to turn data into useful knowledge". This is far from a simple task and a moving target as both the underlying hardware and our ability to collect data evolve. In this class, we will discuss how to design data systems and algorithms that can "scale up" and "sca
+[Optimization Algorithms for Robotics]
+Computational methods have revolutionized the way we control the motions of complex, nonlinear, and underactuated robots. In this course, we study a variety of optimization algorithms for designing and stabilizing trajectories for walking, manipulating, and flying systems. Topics will include optimal control (HJB and Pontryagin’s minimum principle), nonlinear optimization, trajectory planning (shooting and direct methods) and stabilization, model-predictive control, legged systems (classic
+Algorithmic, game-theoretic and logical foundations of multi-agent systems, including distributed optimization and problem solving, non-cooperative game theory, learning and teaching, communication, social choice, mechanism design, auctions, negotiation, coalitional game theory, logics of knowledge and belief, collaborative plans and social systems.
+Surveys biologically-inspired approaches to designing distributed systems. Focus is on algorithms, analysis, and programming paradigms. Topics: swarm intelligence, amorphous computing, immune-inspired systems, synthetic biology. Discussion of research papers and a research project required.
+
+./data/04-harvard/harvard-03.html
+	On-line Algorithms and Randomized Algorithms
+On-line Algorithms and Randomized Algorithms
+Sketching Algorithms for Massive Data
+Sketching Algorithms for Massive Data
+Algorithms for Social Data
+Algorithms for Social Data
+
+./data/05-cmu/a-theorist-s-toolkit--a-theorist-s-toolkit.html
+	 Course description: This course will take a random walk through various mathematical topics that come in handy for theoretical computer science. It is intended mainly for students earlier in their graduate studies (or very strong undergraduates) who want to do theory research. The idea for the course comes from other courses by Arora (2002, 2007), Hstad (2004/05), Kelner (2007, 2009), and Tulsiani (2013).  Prerequisites Students should have a solid undergraduate background in math (e.g., elementary combinatorics, graph theory, discrete probability, basic algebra/calculus) and theoretical computer science (running time analysis, big-O/Omega/Theta, P and NP, basic fundamental algorithms). Mathematical maturity is a must. Prerequisites Students should have a solid undergraduate background in math (e.g., elementary combinatorics, graph theory, discrete probability, basic algebra/calculus) and theoretical computer science (running time analysis, big-O/Omega/Theta, P and NP, basic fundamental algorithms). Mathematical maturity is a must.  https://www.cs.cmu.edu/csd-grad/courseschedulef16.html  CLASSES WILL BEGIN WEEK OF SEPTEMBER 5th.
+
+./data/05-cmu/advanced-topics-in-parallel-computing-.html
+	 Section A: In this special topics course on parallel computing, the students will   learn about the foundations of parallel computing and complete a  research project.   The course will cover both theory and  practice. The topics covered will include  basic parallel algorithms  for sequences (e.g., mapping, reductions), trees  (e.g., tree  contraction), and graphs (graph search, connectivity, graph  contraction)  as well as scheduling algorithms (e.g., work stealing)   for mapping parallel computation to hardware for optimal efficiency  and performance.   There will be one midterm, several assignments  (involving programming),  and one project; the project will account for  50 of the grade.      ** Project Ideas **     The project can be theoretical or practical.  The ideal project would  be one that  adds parallelism to the students current research. For  example, if the student  does research in a field such as  algorithms/graphics/robotics and he or she can   design/analyze/implement a parallel algorithm (possibly for an open  problem);  if the student does research on a field such as programming  languages or databases,  she or he can design/implement language/query  support for parallelism; if the  student does research on machine  learning, he or she can develop a framework  for performing approximate  inference in parallel.   Projects can be done individually or in groups   and will lead to a small paper. We envision the students in the class   to review other project papers (as in a program committee) and provide   feedback to the authors. Please refer to https://www.cs.cmu.edu/csd-grad/courseschedules16.html for the most recent schedule updates.
+
+./data/05-cmu/algorithm-design-and-analysis.html
+	
+This course is intended for SCS graduate students.  All other graduate students should register for 15-650.   This course is about the design and analysis of algorithms. We study specific algorithms for a variety of problems, as well as general design and analysis techniques. Specific topics include searching, sorting, algorithms for graph problems, efficient data structures, lower bounds and NP-completeness. A variety of other topics may be covered at the discretion of the instructor. These include parallel algorithms, randomized algorithms, geometric algorithms, low level techniques for efficient programming, cryptography, and cryptographic protocols.
+
+./data/05-cmu/algorithms-and-advanced-data-structures.html
+	
+The objective of this course is to study general computational problems, with a focus on the principles used to design those algorithms. Efficient data structures will be discussed to support these algorithmic concepts. Topics include: Run time analysis, divide-and-conquer algorithms, dynamic programming algorithms, network flow algorithms, linear and integer programming, large-scale search algorithms and heuristics, efficient data storage and query, and NP-completeness. Although this course will have several programming assignments, it is primarily not a programming course. Instead, it will focus on the design and analysis of algorithms for general classes of problems. This course is not open to CS graduate students who should consider taking 15-651 instead.
+
+./data/05-cmu/animation-art-and-technology.html
+	 Animation Art and Technology is an interdisciplinary course cross-listed between Art and Computer Science. Faculty and teaching assistants from computer science and art teach the class as a team. It is a project-based course in which four to five interdisciplinary teams of students produce animations. Most of the animations have a substantive technical component and the students are challenged to consider innovation with content to be equal with the technical. The class includes basic tutorials for work in Maya leading toward more advanced applications and extensions of the software such as motion capture and algorithms for animating cloth, hair, particles, and grouping behaviors. The first class will meet in CFA room 303.
+
+./data/05-cmu/artificial-intelligence--representation-and-problem-solving--repres-prob-solv.html
+	 This course is about the theory and practice of Artificial Intelligence. We will study modern techniques for computers to represent task-relevant information and make intelligent (i.e. satisficing or optimal) decisions towards the achievement of goals. The search and problem solving methods are applicable throughout a large range of industrial, civil, medical, financial, robotic, and information systems. We will investigate questions about AI systems such as: how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal or near-optimal solutions. We will also explore how to deal with uncertainty in the world, how to learn from experience, and how to learn decision rules from data. We expect that by the end of the course students will have a thorough understanding of the algorithmic foundations of AI, how probability and AI are closely interrelated, and how automated agents learn. We also expect students to acquire a strong appreciation of the big-picture aspects of developing fully autonomous intelligent agents. Other lectures will introduce additional aspects of AI, including natural language processing, web-based search engines, industrial applications, autonomous robotics, and economic/game-theoretic decision making.  Please refer to http://www.cs.cmu.edu/csd-grad/courseschedulef16.html this link for the most recent schedule updates.
+
+./data/05-cmu/artificial-intelligence--representation-and-problem-solving.html
+	 This course is about the theory and practice of Artificial Intelligence. We will study modern techniques for computers to represent task-relevant information and make intelligent (i.e. satisficing or optimal) decisions towards the achievement of goals. The search and problem solving methods are applicable throughout a large range of industrial, civil, medical, financial, robotic, and information systems.  We will investigate questions about AI systems such as: how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal or near-optimal solutions.  We will also explore how to deal with uncertainty in the world, how to learn from experience, and how to learn decision rules from data.  We expect that by the end of the course students will have a thorough understanding of the algorithmic foundations of AI, how probability and AI are closely interrelated, and how automated agents learn.  We also expect students to acquire a strong appreciation of the big-picture aspects of developing fully autonomous intelligent agents.  Other lectures will introduce additional aspects of AI, including natural language processing, web-based search engines, industrial applications, autonomous robotics, and economic/game-theoretic decision making.
+
+./data/05-cmu/competition-programming-and-problem-solving.html
+	 Each year, Carnegie Mellon fields two teams for participation in the ACM-ICPC Regional Programming Contest. During many recent years, one of those teams has earned the right to represent Carnegie Mellon at the ACM-ICPC World Finals.  This course is a vehicle for those who consistently and rigorously train in preparation for the contests to earn course credit for their effort and achievement.  Preparation involves the study of algorithms, the practice of programming and debugging, the development of test sets, and the growth of team, communication, and problem solving skills.  Neither the course grade nor the number of units earned are dependent on ranking in any contest.  Students are not required to earn course credit to participate in practices or to compete in ACM-ICPC events.
+
+./data/05-cmu/computational-perception.html
+	 In this course, we will first cover the biological and psychological foundational knowledge of biological perceptual systems, and then apply computational thinking to investigate the principles and mechanisms underlying natural perception. The course will focus on vision this year, but will also touch upon other sensory modalities. You will learn how to reason scientifically and computationally about problems and issues in perception, how to extract the essential computational properties of those abstract ideas, and finally how to convert these into explicit mathematical models and computational algorithms. Topics include perceptual representation and inference, perceptual organization, perceptual constancy, object recognition, learning and scene analysis. Prerequisites: First year college calculus, some basic knowledge of linear algebra and probability and some programming experience are desirable.
+
+./data/05-cmu/computational-photography.html
+	 COURSE OVERVIEW: Computational Photography is an emerging new field created by the convergence of computer graphics, computer vision and photography. Its role is to overcome the limitations of the traditional camera by using computational techniques to produce a richer, more vivid, perhaps more perceptually meaningful representation of our visual world.  The aim of this advanced undergraduate course is to study ways in which samples from the real world (images and video) can be used to generate compelling computer graphics imagery. We will learn how to acquire, represent, and render scenes from digitized photographs. Several popular image-based algorithms will be presented, with an emphasis on using these techniques to build practical systems. This hands-on emphasis will be reflected in the programming assignments, in which students will have the opportunity to acquire their own images of indoor and outdoor scenes and develop the image analysis and synthesis tools needed to render and view the scenes on the computer.  Please refer to https://www.cs.cmu.edu/csd-grad/courseschedulef16.html for the most recent schedule updates.
+
+./data/05-cmu/computer-graphics.html
+	 This course provides a comprehensive introduction to computer graphics modeling, animation, and rendering. Topics covered include basic image processing, geometric transformations, geometric modeling of curves and surfaces, animation, 3-D viewing, visibility algorithms, shading, and ray tracing.
+
+./data/05-cmu/computer-music-systems-and-information-processing.html
+	 This course presents concepts and techniques for representing and manipulating discrete music information, both in real time and off line. Representations of music as explicitly timed event sequences will be introduced, and students will learn how to build efficient run-time systems for event scheduling, tempo control, and interactive processing. The MIDI protocol is used to capture real-time performance information and to generate sound. The course will also cover non-real-time processing of music data, including Markov models, style recognition, computer accompaniment, query-by-humming, and algorithmic composition. This course is independent of, and complementary to 15-322, Introduction to Computer Music, which focuses on sound synthesis and signal processing.
+
+./data/05-cmu/foundations-of-cyber-physical-systems.html
+	 Cyber-physical systems (CPSs) combine cyber capabilities (computation and/or communication) with physical capabilities (motion or other physical processes). Cars, aircraft, and robots are prime examples, because they move physically in space in a way that is determined by discrete computerized control algorithms. Designing these algorithms to control CPSs is challenging due to their tight coupling with physical behavior. At the same time, it is vital that these algorithms be correct, since we rely on CPSs for safety-critical tasks like keeping aircraft from colliding. In this course we will strive to answer the fundamental question posed by Jeannette Wing:          How can we provide people with cyber-physical systems they can bet their lives on?  Please refer to http://www.cs.cmu.edu/csd-grad/courseschedules16.html this link for the most recent schedule updates.
+
+./data/05-cmu/graduate-algorithms.html
+	
+The course will cover a fairly wide range of topics in algorithm design. Some of the topics will be quite a bit older work from the 1960s to more recent work from this century. We hope to present as many different tools and algorithms as time permits. Most topics will be covered in two phases. In the first we will cover an important design technique by presenting a classic possibly simple application. In the second, an application will be presented that hopefully will be one that is new to most of the class. By the end of the class students are expected to be able to recognize which tool or method to apply to a problem and reasonably proficient at using this tool. We also feel that the student should be able to explain their algorithmic design idea to their piers and supervisors both in writing and orally. This is why we require both written and oral presentations of homework. Please check the preliminary schedule for an idea of the possible topics to be covered. The schedule at this point is mostly a list of topics covered some five years ago. The schedule will be updated with several newer topics.   Please refer to https://www.cs.cmu.edu/csd-grad/courseschedules16.html for the most recent schedule updates.
+
+./data/05-cmu/great-theoretical-ideas-in-computer-science.html
+	 This course is about how to use theoretical ideas to formulate and solve problems in computer science. It integrates mathematical material with general problem solving techniques and computer science applications. Examples are drawn from algorithms, complexity theory, game theory, probability theory, graph theory, automata theory, algebra, cryptography, and combinatorics. Assignments involve both mathematical proofs and programming.  NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer Science course.
+
+./data/05-cmu/introduction-to-computer-music.html
+	 Computers are used to synthesize sound, process signals, and  compose music. Personal computers have replaced studios full of sound  recording and processing equipment, completing a revolution that began with  recording and electronics. In this course, students will learn the  fundamentals of digital audio, basic sound synthesis algorithms, and  techniques for digital audio effects and processing. Students will apply  their knowledge in programming assignments using a very high-level  programming language for sound synthesis and composition. In a final  project, students will demonstrate their mastery of tools and techniques  through music composition or by the implementation of a significant  sound-processing technique.
+
+./data/05-cmu/introduction-to-computing-for-creative-practice.html
+	 [IDeATe portal course] An introduction to fundamental computing principles and programming techniques for creative cultural practices, with special consideration to applications in music, design and the visual arts. Intended for students with little to no prior programming experience, the course develops skills and understanding of text-based programming in a procedural style, including idioms of sequencing, selection, iteration, and recursion. Topics include data organization (arrays, files, trees), interfaces and abstraction (modular software design, using sensor data and software libraries), basic algorithms (searching and sorting), and computational principles (randomness, concurrency, complexity). Intended for students following an IDEATE concentration or minor who have not taken 15-112.
+
+./data/05-cmu/introduction-to-data-structures.html
+	 A continuation of the process of program design and analysis for  students with some prior programming experience (functions, loops, and  arrays, not necessarily in Java). The course reinforces object-oriented  programming techniques in Java and covers data aggregates, data  structures (e.g., linked lists, stacks, queues, trees, and graphs), and  an introduction to the analysis of algorithms that operate on those data  structures.  Pre-req: 15-112 or placement
+
+./data/05-cmu/modern-computer-algebra.html
+	 The goal of this course is to investigate the relationship between algebra  and computation. The course is designed to expose students to algorithms  used for symbolic computation, as well as to the concepts from modern  algebra which are applied to the development of these algorithms. This  course provides a hands-on introduction to many of the most important ideas  used in symbolic mathematical computation, which involves solving system of  polynomial equations (via Groebner bases), analytic integration, and solving  linear difference equations. Throughout the course the computer algebra system Mathematica will be used for computation.
+
+./data/05-cmu/multimedia-databases-and-datamining--multimedia-databases-and-datamining.html
+	 Please refer to https://www.cs.cmu.edu/csd-grad/courseschedules16.html for the most recent schedule updates.  DESCRIPTION    The course covers advanced algorithms for learning, analysis, data management and visualization of large datasets. Topics include indexing for text and DNA databases, searching medical and multimedia databases by content, fundamental signal processing methods, compression, fractals in databases, data mining, privacy and security issues, rule discovery, data visualization, graph mining, stream mining.
+
+./data/05-cmu/parallel-and-sequential-data-structures-and-algorithms.html
+	
+Teaches students about how to design, analyze, and program algorithms and data structures.  The course emphasizes parallel algorithms and analysis, and how sequential algorithms can be considered a special case.  The course goes into more theoretical content on algorithm analysis than 15-122 and 15-150 while still including a significant programming component and covering a variety of practical applications such as problems in data analysis, graphics, text processing, and the computational sciences.  NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer  Science course.
+
+./data/05-cmu/principles-of-imperative-computation.html
+	 For students with a basic understanding of programming (variables, expressions, loops, arrays, functions). Teaches imperative programming and methods for ensuring the correctness of programs.  Students will learn the process and concepts needed to go from high-level descriptions of algorithms to correct imperative implementations, with specific application to basic data structures and algorithms.  Much of the course will be conducted in a subset of C amenable to verification, with a transition to full C near the end. This course prepares students for 15-213 and 15-210.  NOTE: students must achieve a C or better in order to use  this course to satisfy the pre-requisite for any subsequent Computer  Science course.
+
+./data/05-cmu/principles-of-software-construction--objects--design--and-concurrency.html
+	 Software engineers today are less likely to design data structures and algorithms from scratch and more likely to build systems from library and framework components. In this course, students engage with concepts related to the construction of software systems at scale, building on their understanding of the basic building blocks of data structures, algorithms, program structures, and computer structures. The course covers technical topics in four areas: (1) concepts of design for complex systems, (2) object oriented programming, (3) static and dynamic analysis for programs, and (4) concurrent and distributed software. Student assignments involve engagement with complex software such as distributed massively multi-player game systems and frameworks for graphical user interaction.
+
+./data/05-cmu/probability-and-computing.html
+	 Probability theory has become indispensable in computer science.  In  areas such as artificial intelligence and computer science theory,  probabilistic methods and ideas based on randomization are central.  In other areas such as networks and systems, probability is becoming  an increasingly useful framework for handling uncertainty and modeling  the patterns of data that occur in complex systems.  This course gives  an introduction to probability as it is used in computer science  theory and practice, drawing on applications and current research  developments as motivation and context. Topics include combinatorial  probability and random graphs, heavy tail distributions, concentration  inequalities, various randomized algorithms, sampling random variables  and computer simulation, and Markov chains and their many  applications, from Web search engines to models of network protocols.  The course will assume familiarity with 3-D calculus and linear  algebra.
+
+./data/05-cmu/special-topic--cognitive-robotics.html
+	 Cognitive robotics is a new approach to robot programming based on    high level primitives for perception and action. These primitives draw    inspiration from ideas in cognitive science combined with state of the    art robotics algorithms. Students will experiment with these    primitives and help develop new ones using the Tekkotsu software    framework on the Calliope robot, which includes a 5 degree-of-freedom    arm with gripper, a Kinect camera on a pan/tilt mount, and Ubuntu    Linux on a dual-core on-board netbook. Prior robotics experience is    not necessary, but strong programming skills are required.
+
+./data/05-cmu/special-topic--rapid-prototyping-technologies.html
+	 This mini-course introduces students to rapid prototyping technologies with a focus on laser cutting and 3D printing.  The course has three components: 1) A survey of rapid prototyping and additive manufacturing technologies, the maker and open source movements, and societal impacts of these technologies; 2) An introduction to the computer science behind these technologies: CAD tools, file formats, slicing algorithms; 3) Hands-on experience with SolidWorks, laser cutting, and 3D printing, culminating in student projects (e.g. artistic creations, functional objects, replicas of famous calculating machines, etc.). Please note that there will be a usage/materials fee for this course.
+
+./data/05-cmu/special-topic--truth--justice--and-algorithms.html
+	
+Truth, Justice, and Algorithms is an interdisciplinary course that covers selected theoretical topics at the interface of computer science and economics, focusing on the algorithmic side of incentives and fairness.   The courses topics include: computational social choice, e.g., voting rules as maximum likelihood estimators, the axiomatic approach to ranking systems and crowdsourcing, manipulation of elections and ways to circumvent it; cooperative games, focusing on solution concepts such as the core and the Shapley value, and their computation; fair division algorithms for allocating divisible and indivisible goods, and approximate notions of fairness; online matching algorithms (competitive analysis, not dating) and kidney exchange; noncooperative games, including Nash equilibrium and correlated equilibrium, their computation, connections to learning theory, Stackelberg security games, and the price of anarchy in congestion and routing games; and topics in social networks such as the diffusion of technologies and influence maximization.  NOTE: This course is cross-listed with 15-896. Undergraduates may enroll into 15-896 but be aware of work load difference. The two courses are identical in terms of lectures, content, and homework assignments. The only difference is in the final project requirement. In 483, students will prepare a summary of several papers -- this will require 10-20 hours of work. In 896, students will carry out a research project with the goal of obtaining novel results, and present their results in class -- a good project will require 50-60 hours of work. Also note that 483 is 9 units, and 896 is 12 units.
+
+./data/05-cmu/special-topics-in-graphics--physically-based-character-animation.html
+	 Section B:DESCRIPTION: This course will explore research topics in physically based character animation, where the goal is to obtain a character performance that appears both natural and physically plausible. In particular, we will investigate how the physical properties of a character such as range of motion, weight distribution, and level of coordination constrain and suggest plausible motions for that character. We will explore theory and advances in motion controllers, strengths and limitations of motion optimization algorithms, opportunities for fast physics algorithms for interactive applications, the nature of natural motion and aspects of motion style. In addition to computer graphics literature, we will search biomechanics, human motor control, and evolutionary biology literature for insights obtained from these fields. The course should be appropriate for graduate students with some computer graphics and / or robotics experience and for advanced undergraduates who have taken 15-462 or equivalent.    Section J: DESCRIPTION: The world around us is comprised of three-dimensional geometry: from the cars we drive and the clothes we wear, to the food we eat and the organs in our bodies.  To a large extent, our ability to make sense of the world is therefore limited by our capacity to design, process, and analyze geometric data.  The field of discrete differential geometry (DDG) applies ideas from smooth differential geometry to computational algorithms for analyzing and manipulating real-world geometric data.  This course serves as a first course on differential geometry that treats both smooth and discrete objects from a single unified point of view.  Emphasis will be on both rigorous analysis and real-world implementation of numerical algorithms.  Prerequisites: linear algebra, vector calculus.  Please refer to https://www.cs.cmu.edu/csd-grad/courseschedules16.html for the most recent schedule updates.
+
+./data/05-cmu/special-topics-in-theory--spectral-graph-theory.html
+	 Section N: http://www.cs.cmu.edu/15859n/ Description:   This class will cover material from three areas: Spectral Graph Theory, Numerical Linear Algebra, and Biomedical Applications. The central issue in spectral graph theory is understanding, estimating, and finding eigenvectors and eigenvalues of graphs. The study of random walks on a graph was one of the first users of spectral graph theory. Answering such questions as: How many times should you shuffle a deck of cards to insure that the deck is well shuffled? More recent application include Googles page rank algorithm which performs a random walk on the hyperlink graph of the Internet. It has also been applied to the problem of finding these eigenvectors as well as solving related linear systems.....  Section U: http://www.cs.cmu.edu/haeupler/  Please refer to https://www.cs.cmu.edu/csd-grad/courseschedulef16.html for the most recent schedule updates.  CLASSES WILL BEGIN WEEK OF SEPTEMBER 5TH.
+
+./data/05-cmu/special-topics-in-theory-.html
+	 Section N: http://www.cs.cmu.edu/15859n/ Description:   This class will cover material from three areas: Spectral Graph Theory, Numerical Linear Algebra, and Biomedical Applications. The central issue in spectral graph theory is understanding, estimating, and finding eigenvectors and eigenvalues of graphs. The study of random walks on a graph was one of the first users of spectral graph theory. Answering such questions as: How many times should you shuffle a deck of cards to insure that the deck is well shuffled? More recent application include Googles page rank algorithm which performs a random walk on the hyperlink graph of the Internet. It has also been applied to the problem of finding these eigenvectors as well as solving related linear systems.....  Section U: http://www.cs.cmu.edu/haeupler/  Please refer to https://www.cs.cmu.edu/csd-grad/courseschedulef16.html for the most recent schedule updates.  CLASSES WILL BEGIN WEEK OF SEPTEMBER 5TH.
+
+./data/05-cmu/st--foundations-of-cyber-physical-systems.html
+	 Cyber-physical systems (CPSs) combine cyber effects (computation and/or communication) with physical effects (motion or other physical processes). Designing algorithms to control CPSs, such as those in cars, aircraft and robots, is challenging due to their tight coupling with physical behavior. At the same time, it is vital that these algorithms be correct, since we rely on CPSs for safety-critical tasks like keeping aircraft from colliding.  Students in this course will understand the core principles behind CPSs, develop models and controls, identify safety specifications and critical properties of CPSs, understand abstraction and system architectures, learn how to design by invariant, reason rigorously about CPS models, verify CPS models of appropriate scale, understand the semantics of a CPS model and develop an intuition for operational effects. Students will write hybrid programs (HPs), which capture relevant dynamical aspects of CPSs in a simple programming language with a simple semantics, allowing the programmer to refer to real-valued variables representing real quantities and specify their dynamics as part of the HP.
+
+./data/05-cmu/truth--justice--and-algorithms.html
+	
+Truth, Justice, and Algorithms is an interdisciplinary course that covers selected theoretical topics at the interface of computer science and economics. The courses topics include: computational social choice, e.g., voting rules as maximum likelihood estimators, the axiomatic approach to ranking systems and crowdsourcing, manipulation of elections and ways to circumvent it; cooperative games, focusing on solution concepts such as the core and the Shapley value, and their computation; fair division algorithms for allocating divisible and indivisible goods, and approximate notions of fairness; online matching algorithms (competitive analysis, not dating) and kidney exchange; noncooperative games, including Nash equilibrium and correlated equilibrium, their computation, connections to learning theory, Stackelberg security games, and the price of anarchy in congestion and routing games; and topics in social networks such as the diffusion of technologies and influence maximization.   Please refer to https://www.cs.cmu.edu/csd-grad/courseschedules16.html this link for the most recent schedule updates.  Description:
+
+./data/05-cmu/undergraduate-complexity-theory.html
+	 Complexity theory is the study of how much of a resource (such as time, space, parallelism, or randomness) is required to perform some of the computations that interest us the most. In a standard algorithms course, one concentrates on giving resource efficient methods to solve interesting problems. In this course, we concentrate on techniques that prove or suggest that there are no efficient methods to solve many important problems.  We will develop the theory of various complexity classes, such as P, NP, co-NP, PH, P, PSPACE, NC, AC, L, NL, UP, RP, BPP, IP, and PCP. We will study techniques to classify problems according to our available taxonomy. By developing a subtle pattern of reductions between classes we will suggest an (as yet unproven) picture of how by using limited amounts of various resources, we limit our computational power.
+
+./data/05-cmu/visual-computing-systems--visual-computing-systems.html
+	 DESCRIPTION:Visual computing tasks such as 2D/3D graphics, image processing, and image understanding are important responsibilities of modern computer systems ranging from sensor-rich smart phones to large datacenters. These workloads demand exceptional system efficiency and this course examines the key ideas, techniques, and challenges associated with the design of parallel (and heterogeneous) systems that serve to accelerate visual computing applications. This course is intended for graduate and advanced undergraduate-level students interested in architecting efficient future graphics and image processing platforms and for students seeking to develop scalable algorithms for these platforms.   https://www.cs.cmu.edu/csd-grad/courseschedulef16.html  CLASS WILL BEGIN THE WEEK OF SEPTEMBER 5th.
+
+./data/07-berkeley/berkeley.html
+	Introduction to programming and computer science. This course exposes students to techniques of abstraction at several levels: (a) within a programming language, using higher-order functions, manifest types, data-directed programming, and message-passing; (b) between programming languages, using functional and rule-based languages as examples. It also relates these techniques to the practical problems of implementation of languages and algorithms on a von Neumann machine. There are several significant programming projects.
+Introductory programming and computer science. Abstraction as means to control program complexity. Programming paradigms: functional, object-oriented, client/server, and declarative (logic). Control abstraction: recursion and higher order functions. Introduction to asymptotic analysis of algorithms. Data abstraction: abstract data types, type-tagged data, first class data types, sequences implemented as lists and as arrays, generic operators implemented with data-directed programming and with message passing. Implementation of object-oriented programming with closures over dispatch procedures. Introduction to interpreters and compilers. There are several significant programming projects. Course may be completed in one or two semesters. Students must complete a mimimum of two units during their first semester of 61AS.
+Fundamental dynamic data structures, including linear lists, queues, trees, and other linked structures; arrays strings, and hash tables. Storage management. Elementary principles of software engineering. Abstract data types. Algorithms for sorting and searching. Introduction to the Java programming language.
+Development of Computer Science topics appearing in Foundations of Data Science (C8); expands computational concepts and techniques of abstraction. Understanding the structures that underlie the programs, algorithms, and languages used in data science and elsewhere. Mastery of a particular programming language while studying general techniques for managing program complexity, e.g., functional, object-oriented, and declarative programming. Provides practical experience with composing larger systems through several significant programming projects.
+Objectives  OutcomesCourse Objectives: Develop a foundation of computer science concepts that arise in the context of data analytics, including algorithm, representation, interpretation, abstraction, sequencing, conditional, function, iteration, recursion, types, objects, and testing, and develop proficiency in the application of these concepts in the context of a modern programming language at a scale of whole programs on par with a traditional CS introduction course.
+This course is an introduction to the Internet architecture. We will focus on the concepts and fundamental design principles that have contributed to the Internet's scalability and robustness and survey the various protocols and algorithms used within this architecture. Topics include layering, addressing, intradomain routing, interdomain routing, reliable delivery, congestion control, and the core protocols (e.g., TCP, UDP, IP, DNS, and HTTP) and network technologies (e.g., Ethernet, wireless).
+Efficient Algorithms and Intractable Problems
+Concept and basic techniques in the design and analysis of algorithms; models of computation; lower bounds; algorithms for optimum search trees, balanced trees and UNION-FIND algorithms; numerical and algebraic algorithms; combinatorial algorithms. Turing machines, how to count steps, deterministic and nondeterministic Turing machines, NP-completeness. Unsolvable and intractable problems.
+Algorithms for Computational Biology
+Algorithms and probabilistic models that arise in various computational biology applications: suffix trees, suffix arrays, pattern matching, repeat finding, sequence alignment, phylogenetics, genome rearrangements, hidden Markov models, gene finding, motif finding, stochastic context free grammars, RNA secondary structure. There are no biology prerequisites for this course, but a strong quantitative background will be essential.
+Techniques of modeling objects for the purpose of computer rendering: boundary representations, constructive solids geometry, hierarchical scene descriptions. Mathematical techniques for curve and surface representation. Basic elements of a computer graphics rendering pipeline; architecture of modern graphics display devices. Geometrical transformations such as rotation, scaling, translation, and their matrix representations. Homogeneous coordinates, projective and perspective transformations. Algorithms for clipping, hidden surface removal, rasterization, and anti-aliasing. Scan-line based and ray-based rendering algorithms. Lighting models for reflection, refraction, transparency.
+Theoretical foundations, algorithms, methodologies, and applications for machine learning. Topics may include supervised methods for regression and classication (linear models, trees, neural networks, ensemble methods, instance-based methods); generative and discriminative probabilistic models; Bayesian parametric learning; density estimation and clustering; Bayesian networks; time series models; dimensionality reduction; programming projects covering a variety of real-world applications.
+This multidisciplinary course provides an introduction to fundamental conceptual aspects of quantum mechanics from a computational and informational theoretic perspective, as well as physical implementations and technological applications of quantum information science. Basic sections of quantum algorithms, complexity, and cryptography, will be touched upon, as well as pertinent physical realizations from nanoscale science and engineering.
+Discrete time signals and systems: Fourier and Z transforms, DFT, 2-dimensional versions. Digital signal processing topics: flow graphs, realizations, FFT, chirp-Z algorithms, Hilbert transform relations, quantization effects, linear prediction. Digital filter design methods: windowing, frequency sampling, S-to-Z methods, frequency-transformation methods, optimization methods, 2-dimensional filter design.
+Fundamental Algorithms for Systems Modeling, Analysis, and Optimization
+The modeling, analysis, and optimization of complex systems requires a range of algorithms and design software. This course reviews the fundamental techniques underlying the design methodology for complex systems, using integrated circuit design as example. Topics include design flows, discrete and continuous models and algorithms, and strategies for implementing algorithms efficiently and correctly in software. Laboratory assignments and a class project will expose students to state-of-the-art tools.
+
+./data/09-singapore/index.html
+	 Data Structures and Algorithms IModular Credits = 4 
+Data Structures and Algorithms IModular Credits = 4 
+Data Structures and Algorithms IIModular Credits = 4 
+Data Structures and Algorithms AcceleratedModular Credits = 6 
+Design and Analysis of AlgorithmsModular Credits = 4 
+Parallel and Distributed AlgorithmsModular Credits = 4 
+Optimisation AlgorithmsModular Credits = 4 
+Combinatorial and Graph AlgorithmsModular Credits = 4 
+Randomized AlgorithmsModular Credits = 4 
+Advanced AlgorithmsModular Credits = 4 
+
+./data/02-stanford/CS-0405-PS.pdf
+	CS         161        Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS-0506-PS.pdf
+	CS         161        Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS-0607-PS.pdf
+	CS         161        Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS-0708-PS.pdf
+	  CS                 161 Design and Analysis of Algorithms                                                                                         4
+
+./data/02-stanford/CS00PS.pdf
+	CS      161         Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS01PS.pdf
+	CS       161         Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS02PS.pdf
+	CS          161        Design and Analysis of Algorithms                   4
+
+./data/02-stanford/CS03PS.pdf
+	CS         161        Design and Analysis of Algorithms                  4
+
+./data/02-stanford/CS99PS.pdf
+	CS      161        Design and Analysis of Algorithms                   4
+
+./data/02-stanford/CS_AI_0809PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                           4
+
+./data/02-stanford/CS_AI_0910PS.pdf
+	CS                  161 Design and Analysis of Algorithms (see note 9)                                                                  5
+
+./data/02-stanford/CS_AI_1011PS.pdf
+	CS          161 Design and Analysis of Algorithms (see note 9)                                                                            5
+
+./data/02-stanford/CS_AI_1112PS.pdf
+	CS              161 Design and Analysis of Algorithms (see note 9)                                                                                5
+
+./data/02-stanford/CS_AI_1213PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 8)                                                                                 5
+
+./data/02-stanford/CS_AI_1314PS.pdf
+	CS             161 Design and Analysis of Algorithms                                                                                              5
+
+./data/02-stanford/CS_AI_1415PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                            5
+
+./data/02-stanford/CS_AI_1516PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                            5
+
+./data/02-stanford/CS_AI_1617PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                            5
+
+./data/02-stanford/CS_Biocomp_0809PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                            4
+
+./data/02-stanford/CS_Biocomp_0910PS.pdf
+	CS                   161 Design and Analysis of Algorithms (see note 7)                                                                              5
+
+./data/02-stanford/CS_Biocomp_1011PS.pdf
+	CS                161 Design and Analysis of Algorithms (see note 7)                                                                       5
+
+./data/02-stanford/CS_Biocomp_1112PS.pdf
+	CS                161 Design and Analysis of Algorithms (see note 7)                                                                             5
+
+./data/02-stanford/CS_Biocomp_1213PS.pdf
+	CS                161 Design and Analysis of Algorithms (see note 6)                                                                             5
+
+./data/02-stanford/CS_Biocomp_1314PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                         5
+
+./data/02-stanford/CS_Biocomp_1415PS.pdf
+	CS                 161 Design and Analysis of Algorithms                                                                                            5
+
+./data/02-stanford/CS_Biocomp_1516PS.pdf
+	CS                 161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Biocomp_1617PS.pdf
+	CS                  161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_CompEng_1112PS.pdf
+	CS               161 Design and Analysis of Algorithms (see note 9)                                                                           5
+
+./data/02-stanford/CS_CompEng_1213PS.pdf
+	CS                  161 Design and Analysis of Algorithms (see note 8)                                                                        5
+
+./data/02-stanford/CS_CompEng_1314PS.pdf
+	CS                  161 Design and Analysis of Algorithms                                                                              5
+
+./data/02-stanford/CS_CompEng_1415PS.pdf
+	CS                   161 Design and Analysis of Algorithms                                                                               5
+
+./data/02-stanford/CS_CompEng_1516PS.pdf
+	CS                   161 Design and Analysis of Algorithms                                                                               5
+
+./data/02-stanford/CS_CompEng_1617PS.pdf
+	CS                   161 Design and Analysis of Algorithms                                                                               5
+
+./data/02-stanford/CS_Graphics_0809PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                          4
+
+./data/02-stanford/CS_Graphics_0910PS.pdf
+	CS               161 Design and Analysis of Algorithms (see note 9)                                                                                   5
+
+./data/02-stanford/CS_Graphics_1011PS.pdf
+	CS         161 Design and Analysis of Algorithms (see note 9)                                                                              5
+
+./data/02-stanford/CS_Graphics_1112PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 9)                                                                             5
+
+./data/02-stanford/CS_Graphics_1213PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 8)                                                                               5
+
+./data/02-stanford/CS_Graphics_1314PS.pdf
+	CS             161 Design and Analysis of Algorithms                                                                                          5
+
+./data/02-stanford/CS_Graphics_1415PS.pdf
+	CS           161 Design and Analysis of Algorithms                                                                                           5
+
+./data/02-stanford/CS_Graphics_1516PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                                         5
+
+./data/02-stanford/CS_Graphics_1617PS.pdf
+	CS                 161 Design and Analysis of Algorithms                                                                                       5
+
+./data/02-stanford/CS_HCI_0809PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                           4
+
+./data/02-stanford/CS_HCI_0910PS.pdf
+	CS              161 Design and Analysis of Algorithms (see note 9)                                                                                           5
+
+./data/02-stanford/CS_HCI_1011PS.pdf
+	CS          161 Design and Analysis of Algorithms (see note 9)                                                                                    5
+
+./data/02-stanford/CS_HCI_1112PS.pdf
+	CS              161 Design and Analysis of Algorithms (see note 9)                                                                                 5
+
+./data/02-stanford/CS_HCI_1213PS.pdf
+	CS               161 Design and Analysis of Algorithms (see note 8)                                                                            5
+
+./data/02-stanford/CS_HCI_1314PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                                     5
+
+./data/02-stanford/CS_HCI_1415PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                   5
+
+./data/02-stanford/CS_HCI_1516PS.pdf
+	CS                 161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_HCI_1617PS.pdf
+	CS                  161 Design and Analysis of Algorithms                                                                                         5
+
+./data/02-stanford/CS_Indiv_0809PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                              4
+
+./data/02-stanford/CS_Indiv_0910PS.pdf
+	CS               161 Design and Analysis of Algorithms (see note 9)                                                                                      5
+
+./data/02-stanford/CS_Indiv_1011PS.pdf
+	CS           161 Design and Analysis of Algorithms (see note 9)                                                                              5
+
+./data/02-stanford/CS_Indiv_1112PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 9)                                                                              5
+
+./data/02-stanford/CS_Indiv_1213PS.pdf
+	CS           161 Design and Analysis of Algorithms (see note 8)                                                                                5
+
+./data/02-stanford/CS_Indiv_1314PS.pdf
+	CS           161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Indiv_1415PS.pdf
+	CS           161 Design and Analysis of Algorithms                                                                                  5
+
+./data/02-stanford/CS_Indiv_1516PS.pdf
+	CS           161 Design and Analysis of Algorithms                                                                                  5
+
+./data/02-stanford/CS_Indiv_1617PS.pdf
+	CS           161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Info_0809PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                          4
+
+./data/02-stanford/CS_Info_0910PS.pdf
+	CS              161 Design and Analysis of Algorithms (see note 9)                                                                                  5
+
+./data/02-stanford/CS_Info_1011PS.pdf
+	CS          161 Design and Analysis of Algorithms (see note 9)                                                                           5
+
+./data/02-stanford/CS_Info_1112PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 9)                                                                            5
+
+./data/02-stanford/CS_Info_1213PS.pdf
+	CS         161    Design and Analysis of Algorithms (see note 8)                                                                             5
+
+./data/02-stanford/CS_Info_1314PS.pdf
+	CS             161 Design and Analysis of Algorithms                                                                                           5
+
+./data/02-stanford/CS_Info_1415PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Info_1516PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Info_1617PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Systems_0809PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                        4
+
+./data/02-stanford/CS_Systems_0910PS.pdf
+	CS              161 Design and Analysis of Algorithms (see note 9)                                                                                     5
+
+./data/02-stanford/CS_Systems_1011PS.pdf
+	CS          161 Design and Analysis of Algorithms (see note 9)                                                                         5
+
+./data/02-stanford/CS_Systems_1112PS.pdf
+	CS            161 Design and Analysis of Algorithms (see note 9)                                                                               5
+
+./data/02-stanford/CS_Systems_1213PS.pdf
+	CS            161 Design and Analysis of Algorithms (see note 8)                                                                               5
+
+./data/02-stanford/CS_Systems_1314PS.pdf
+	CS            161 Design and Analysis of Algorithms                                                                                            5
+
+./data/02-stanford/CS_Systems_1415PS.pdf
+	CS            161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Systems_1516PS.pdf
+	CS             161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Systems_1617PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                      5
+
+./data/02-stanford/CS_Theory_0809PS.pdf
+	CS               161 Design and Analysis of Algorithms                                                                                         4
+
+./data/02-stanford/CS_Theory_0910PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 9)                                                                                    5
+
+./data/02-stanford/CS_Theory_1011PS.pdf
+	CS         161 Design and Analysis of Algorithms (see note 9)                                                                               5
+
+./data/02-stanford/CS_Theory_1112PS.pdf
+	CS            161 Design and Analysis of Algorithms (see note 9)                                                                            5
+
+./data/02-stanford/CS_Theory_1213PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 8)                                                                            5
+
+./data/02-stanford/CS_Theory_1314PS.pdf
+	CS             161 Design and Analysis of Algorithms                                                                                         5
+
+./data/02-stanford/CS_Theory_1415PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Theory_1516PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Theory_1617PS.pdf
+	CS              161 Design and Analysis of Algorithms                                                                                        5
+
+./data/02-stanford/CS_Unspec_0809PS.pdf
+	CS                161 Design and Analysis of Algorithms                                                                                       4
+
+./data/02-stanford/CS_Unspec_0910PS.pdf
+	CS               161 Design and Analysis of Algorithms (see note 9)                                                                                  5
+
+./data/02-stanford/CS_Unspec_1011PS.pdf
+	CS           161 Design and Analysis of Algorithms (see note 9)                                                                                   5
+
+./data/02-stanford/CS_Unspec_1112PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 9)                                                                                  5
+
+./data/02-stanford/CS_Unspec_1213PS.pdf
+	CS             161 Design and Analysis of Algorithms (see note 8)                                                                                  5
+
+./data/02-stanford/CS_Unspec_1314PS.pdf
+	CS          161 Design and Analysis of Algorithms                                                                                         5
+
+./data/02-stanford/CS_Unspec_1415PS.pdf
+	CS            161 Design and Analysis of Algorithms                                                                                       5
+
+./data/02-stanford/CS_Unspec_1516PS.pdf
+	CS            161 Design and Analysis of Algorithms                                                                                       5
+
+./data/02-stanford/CS_Unspec_1617PS.pdf
+	CS            161 Design and Analysis of Algorithms                                                                                    5
+
+./data/06-cambridge/CST.pdf
+	    Paper 1: Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17
+  Advanced Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104
+A further aim is to introduce the principles of data structures and algorithms. The course
+will emphasise the algorithmic side of programming, focusing on problem-solving rather
+than on hardware-level bits and bytes. Accordingly it will present basic algorithms for
+(such as polynomial arithmetic) will demonstrate how algorithmic ideas can be used to
+    • be able to estimate the efficiency of simple algorithms, using the notions of
+      Division Theorem and Algorithm. Modular arithmetic. Sets: membership and
+      comprehension. The greatest common divisor, and Euclid’s Algorithm and Theorem.
+     The Extended Euclid’s Algorithm and multiplicative inverses in modular arithmetic.
+Paper 1: Algorithms
+Graphics and Image Processing , Prolog, Advanced Algorithms
+The aim of this course is to provide an introduction to computer algorithms and data
+    • Sorting. Review of complexity and O-notation. Trivial sorting algorithms of quadratic
+    • Strategies for algorithm design. Dynamic programming, divide and conquer,
+      greedy algorithms and other useful paradigms. [Ref: CLRS3 chapters 4, 15, 16]
+    • Graph algorithms. Graph representations. Breadth-first and depth-first search.
+      Topological sort. Minimum spanning tree. Kruskal and Prim algorithms.
+      Single-source shortest paths: Bellman-Ford and Dijkstra algorithms. All-pairs
+      shortest paths: matrix multiplication and Johnson’s algorithms. Maximum flow:
+    • Geometric algorithms. Intersection of segments. Convex hull: Graham’s scan,
+    • have a thorough understanding of several classical algorithms and data structures;
+    • be able to analyse the space and time efficiency of most algorithms;
+      increase the efficiency of particular algorithms;
+    • be able to design new algorithms or modify existing ones for new applications and
+Algorithms. MIT Press (3rd ed.). ISBN 978-0-262-53305-8
+Sedgewick, R., Wayne, K. (2011). Algorithms Addison-Wesley. ISBN 978-0-321-57351-3.
+Kleinberg, J. & Tardos, É. (2006). Algorithm design. Addison-Wesley. ISBN
+      interleaving, (non-)preemption, context switching. Scheduling algorithms: FCFS,
+    • compare and contrast various CPU scheduling algorithms;
+   3. a study of several standard numerical algorithms.
+       representations. Their use in a-posteriori decision algorithms. Eg for rapid
+    • be familiar with several key algorithms from the history of numerical analysis;
+practical experience with algorithms and data structures, and prepare students for the Part
+Prerequisite courses: Algorithms
+To introduce the necessary background, the basic algorithms, and the applications of
+design and optimisation of algorithms, so can be considered a practical application of the
+lessons learnt in the Algorithms course.
+    • Underlying algorithms. Drawing a straight line. Drawing circles and ellipses. Cubic
+    • describe and explain the following algorithms: mid-point line drawing, mid-point circle
+     • Network layer routing. Routing and forwarding, routing algorithms, routing in the
+good distributed algorithms and applications.
+      Algorithm; Berkeley Algorithm; Network Time Protocol (NTP). Logical time,
+      Algorithm; Berkeley Algorithm; Network Time Protocol (NTP). Logical time,
+      algorithm; the Bully algorithm. Consensus. Distributed transactions; atomic commit
+      algorithm; the Bully algorithm. Consensus. Distributed transactions; atomic commit
+   • be familiar with a range of distributed algorithms;
+probability modelling techniques that allow stochastic systems and algorithms to be
+            algorithms implementing it, and applications. [2 lectures]
+    • understand discrete transform techniques, algorithms, and applications;
+Mitzenmacher, M. & Upfal, E. (2005). Probability and computing: randomized algorithms
+Prerequisite courses: Foundations of Computer Science, Algorithms
+    • appreciate the unique perspective Prolog gives to problem solving and algorithm
+informal notion of algorithm; to show that they are equivalent; and to use them to
+demonstrate that there are uncomputable functions and algorithmically undecidable
+    • Introduction: algorithmically undecidable problems. Decision problems. The
+      informal notion of algorithm, or effective procedure. Examples of algorithmically
+      informal notion of algorithm, or effective procedure. Examples of algorithmically
+principles and definitions, then describe a variety of different formalisms and algorithms
+      Skolemisation. Most general unifiers. A unification algorithm. Herbrand models and
+    • Binary decision diagrams. General concepts. Fast canonical form algorithm.
+    • be able to apply the unification algorithm and to describe its uses.
+Prerequisite courses: Algorithms. In addition the course requires some mathematics, in
+algorithms in artificial intelligence (AI). The course approaches AI from an algorithmic,
+algorithms in artificial intelligence (AI). The course approaches AI from an algorithmic,
+The course aims to provide some fundamental tools and algorithms required to produce AI
+      uninformed search algorithms. Tree search and graph search. [1 lecture]
+    • Search II. More sophisticated heuristic search algorithms. The A* algorithm and its
+    • Search II. More sophisticated heuristic search algorithms. The A* algorithm and its
+      algorithms. Local search and gradient descent. [1 lecture]
+    • Game-playing. Search in an adversarial environment. The minimax algorithm and
+      common format. The backtracking algorithm for CSPs. Heuristics for improving the
+    • Backjumping in CSPs. Backtracking, backjumping using Gaschnig’s algorithm,
+      demotion: the partial-order planning algorithm. [1 lecture]
+      The GRAPHPLAN algorithm. Planning using propositional logic. Planning as a
+    • Neural Networks II. Multilayer perceptrons and the backpropagation algorithm.
+      knowledge representation, reasoning, planning, and learning algorithms.
+Prerequisite courses: Algorithms, Computation Theory
+will explain measures of the complexity of problems and of algorithms, based on time and
+     • Algorithms and problems. Complexity of algorithms and of problems. Lower and
+     • Algorithms and problems. Complexity of algorithms and of problems. Lower and
+       algorithms. P and NP.
+       Non-deterministic algorithms for reachability and satisfiability.
+This course focuses on algorithms used in Bioinformatics and System Biology. Most of the
+algorithms are general and can be applied in other fields on multidimensional and noisy
+described algorithms will be demonstrated.
+    • Clustering. K-means, Markov Clustering algorithm.
+    • Biological networks: reverse engineering algorithms and dynamics; Wagner,
+    • have mastered the most important algorithms in the field;
+Jones, N.C. & Pevzner, P.A. (2004). An introduction to bioinformatics algorithms. MIT
+  • Kolmogorov complexity. Minimal description length. Definition of the algorithmic
+      algorithms for packet forwarding, and fairness. [1 lectures]
+computation. The model will be used to study algorithms for searching and factorisation.
+      state systems, machines and algorithms.
+    • Quantum search. Grover’s search algorithm. Analysis and lower bounds.
+    • Factorisation. Shor’s algorithm for factorising numbers and analysis. Quantum
+    • be familiar with some basic quantum algorithms and their analysis;
+publications, for prototyping numerical algorithms and to visualize results.
+image and signal processing algorithms in MATLAB, and to visualize the results.
+    • be able to choose right display (post-processing) algorithms for a given rendering
+geometry: algorithms and applications. Springer (3rd ed.).
+Mitzenmacher, M. & Upfal, E. (2005). Probability and computing: randomized algorithms
+      representations, specific algorithms, and inference principles;
+      partitional clustering. Clustering algorithms.
+Prerequisite courses: Artificial Intelligence I, Logic and Proof, Algorithms, Mathematical
+theory. The course continues to exploit the primarily algorithmic and computer
+The course aims to provide further tools and algorithms required to produce AI systems
+planning algorithms, and systems able to deal with the uncertainty inherent in the
+       graphs. The GRAPHPLAN algorithm. Planning using propositional logic. Planning
+       likely explanation. The Viterbi algorithm. Hidden Markov models. [2 lectures]
+       teach us about the backpropagation algorithm? [1 lecture]
+    • Classical dataflow analysis. Graph algorithms, live and avail sets. Register
+   • Number theory. Modular arithmetic, greatest common divisor, Euclid’s algorithm,
+       cycles, basic gate synthesis algorithm and design examples. Structural hazards
+Advanced Algorithms
+Prerequisite courses: Algorithms
+algorithms that arise in a variety of applications. A particular focus will be on parallel
+algorithms and approximation algorithms.
+algorithms and approximation algorithms.
+    • Matrix multiplication. Strassen’s algorithm. Matrix inversion vs. matrix
+      The simplex algorithm. Finding initial solutions. Fundamental theorem of linear
+    • Approximation algorithms. (Fully) Polynomial-time approximation schemes.
+    • Randomised approximation algorithms. Randomised approximation achemes.
+    • have an understanding of algorithm design for parallel computers
+    • have learned a variety of tools to design efficient (approximation) algorithms
+Algorithms. MIT Press (3rd ed.). ISBN 978-0-262-53305-8
+behaviour of systems, and finally to introduce model-checking algorithms which determine
+   • Model checking. Simple algorithms for verifying that temporal properties hold.
+

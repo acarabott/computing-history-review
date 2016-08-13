@@ -1,0 +1,39 @@
+./data/02-stanford/core.txt
+	CS103 will give students the mathematical foundations necessary for computer science. Topics include proof techniques and logic; induction; sets, functions, and relations; an introduction to formal languages; DFA's, NFA's, and Regular Expressions; Context-Free Grammars, Turing Machines, and NP-Completeness.
+
+./data/01-mit/m6a.html
+	Provides an introduction to some of the central ideas of theoretical computer science, including circuits, finite automata, Turing machines and computability, efficient algorithms and reducibility, the P versus NP problem, NP-completeness, the power of randomness, cryptography, computational learning theory, and quantum computing. Examines the classes of problems that can and cannot be solved in various computational models.
+
+./data/03-oxford/complexity.html
+	 PrerequisitesThere are no formal prerequisites, and the course begins with a review of some basic material, including Turing machines
+         [1 lecture] Turing machines. Models of computation. Multitape deterministic and non-deterministic Turing
+         Universal Turing machine. Undecidability of halting. Reductions. Rice's theorem. 
+[4 lectures] NP and NP-completeness. Non-deterministic Turing machines. NTIME[t]. NP. Polynomial time
+         SyllabusTuring machines, decision problems, time and space complexity, polynomial time algorithms, NP and NP-completeness, standard
+
+./data/03-oxford/dl.html
+	  Advanced Memory: Neural Turing Machine, Stacks and other structures.
+         Turing Machines, Machine Translation, Question Answering, Speech Recognition, Syntactic and Semantic Parsing, GPU optimisation
+
+./data/03-oxford/modelsofcomputation.html
+	         and Turing Machines.A computer scientist should be able to distinguish between what can be computed and what cannot.
+         Part 2: Turing machines and computability 
+Turing's analysis of computation. The Turing machine.
+Expressive power of Turing machines. Church's thesis. 
+The Turing machine. Church's Thesis. Decision problems and undecidability. The halting problem. 
+
+./data/04-harvard/harvard-01.html
+	General introduction to the theory of computation, teaching how to reason precisely about computation and prove mathematical theorems about its capabilities and limitations. Finite automata, Turing machines, formal languages, computability, uncomputability, computational complexity, and the P vs. NP question.
+
+./data/05-cmu/formal-languages--automata--and-computability.html
+	 An introduction to the fundamental ideas and models underlying computing: finite automata, regular sets, pushdown automata, context-free grammars, Turing machines, undecidability, and complexity theory.
+
+./data/07-berkeley/berkeley.html
+	Concept and basic techniques in the design and analysis of algorithms; models of computation; lower bounds; algorithms for optimum search trees, balanced trees and UNION-FIND algorithms; numerical and algebraic algorithms; combinatorial algorithms. Turing machines, how to count steps, deterministic and nondeterministic Turing machines, NP-completeness. Unsolvable and intractable problems.
+Finite automata, Turing machines and RAMs. Undecidable, exponential, and polynomial-time problems. Polynomial-time equivalence of all reasonable models of computation. Nondeterministic Turing machines. Theory of NP-completeness: Cook's theorem, NP-completeness of basic problems. Selected topics in language theory, complexity and randomness.
+
+./data/06-cambridge/CST.pdf
+	    • Turing machines. Informal description. Definition and examples. Turing computable
+    • be familiar with the register machine, Turing machine and lambda-calculus models of
+       space complexity on a Turing machine. Decidability and complexity.
+
