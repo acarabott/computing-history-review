@@ -2,6 +2,8 @@
 
 A quick hack to get a sense of how much the history of computing is taught on undergraduate CS courses (not much!).
 
+Essentially this a collection of data and an Jupyter Notebook to grep it all, so you can search for whatever terms you like.
+
 Data for the top 10 universities in the world has been collected, and a quick grep/pdfgrep based script in Python is provided for searching.
 
 Very welcome to be proved wrong!
