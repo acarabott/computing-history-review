@@ -1,0 +1,20 @@
+Core
+Systems
+Programming Abstractions (CS106B or CS106X)
+CS106B introduces students to many fundamental programming concepts and software engineering techniques using the C++ language. The course will focus on teaching problem solving skills, basic abstract data typs, and recursion. General topics include basic programming methodology (engineering, modularity, documentation), data abstractions (stacks, queues, linked lists, hash tables, binary trees, generics and templates), recursion (procedural, backtracking), searching and sorting, and basic algorithmic analysis (including Big-Oh notation).
+
+Computer Organization and Systems (CS107)
+CS107 transitions students to programming on the UNIX machines. The class aims to teach students about computer systems from the hardware up to the source code. Topics include machine architecture (registers, I/O, basic assembly language), memory models (pointers, memory allocation, data representation), compilation (stack frames, semantic analysis, code generation), and basic concurrency (threading, synchronization).
+
+Principles of Computer Systems (CS110)
+CS110 will teach students how to build larger scale systems using operating system and networking abstractions. Topics include processes (threading, context switching, interprocess communication), storage and file management (file systems, virtual memory), networking (sockets, TCP/IP, routing) and an understanding of distributed systems.
+
+Theory
+Mathematical Foundations of Computing (CS103)
+CS103 will give students the mathematical foundations necessary for computer science. Topics include proof techniques and logic; induction; sets, functions, and relations; an introduction to formal languages; DFA's, NFA's, and Regular Expressions; Context-Free Grammars, Turing Machines, and NP-Completeness.
+
+Introduction to Probability for Computer Scientists (CS109)
+CS109 is designed to teach students material from probability and statistics that is relevant to computer science. Topics include combinatorics; probability theory; conditional probability, and independence; probability distributions; Bayes' Theorem, Law of Large Numbers, and the Central Limit Theorem; and hypothesis testing. The class will also cover applications of probability including hashing, data analysis, inference, and an introduction to machine learning.
+
+Data Structures and Algorithms (CS161)
+CS161 gives students the tools to analyze data structures and algorithms. Students will also practice devising algorithms for various problems. These skills are widely applicable and alumni report CS161 as one of the most useful classes at Stanford. Topics include algorithmic complexity analysis (Big Oh, Omega, Theta), recurrence relations, and the master method. In addition, students learn about several different classes of algorithms and data structures, including randomized algorithms, divide and conquer strategies, greedy algorithms, hasing, heaps, graph algorithms, and search algorithms (including blind and A* search).

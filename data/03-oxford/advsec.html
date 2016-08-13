@@ -1,0 +1,580 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>              <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" xmlns:og="http://ogp.me/ns#" lang="en-gb" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- CSS files are split up to support IE9 and below - http://blesscss.com/ -->
+	<!--[if gt IE 9]> -->
+            <link rel="stylesheet" href="/css/common.css">
+        <!-- <![endif]-->
+        <!--[if lte IE 9]>
+	    <link rel="stylesheet" href="/css/split/common-blessed1.css">
+<link rel="stylesheet" href="/css/split/common.css">
+        <![endif]-->
+        
+	<!-- IE8 and below also have a problem with multiple fonts in a single file -->
+        <!-- http://www.smashingmagazine.com/2012/07/avoiding-faux-weights-styles-google-web-fonts/ -->
+        <!--[if gt IE 8]> -->
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
+        <!-- <![endif]-->
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400italic">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700italic">
+        <![endif]-->
+
+	<!-- HTML5 shim, Respond.js and ie9.js for IE8 support -->
+        <!-- WARNING: Must be in the <head> but *after* the CSS files -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="/js/ie8.js"></script>
+        <![endif]-->
+
+        <!-- nth-child() support for IE9 -->
+        <!--[if IE 9]>
+            <script src="/js/ie9.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="/favicon.ico">
+	
+	
+<style type="text/css">
+
+#breadcrumb
+{
+	display: none;
+}
+
+wbr:after { content: "\00200B"; }
+
+.slideshow .bx-pager-link
+{
+	outline: none;
+}
+</style>
+
+<link rel="stylesheet" href="/styles/fix-contents.css"></link>
+<meta name="keywords"
+      content="Department of Computer Science, Course, 2016-2017, advsec"></meta>
+<meta name="description"
+      content="Department of Computer Science, 2016-2017, advsec, Advanced Security"></meta>
+<title>Advanced Security</title>
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	/**
+	**  Honour the "do not track" browser setting.
+	**/
+	if(typeof navigator.doNotTrack === "undefined" || (navigator.doNotTrack !== 'yes' && navigator.doNotTrack !== '1'))
+	{
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25164877-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	}
+  
+// ]]>
+</script>
+
+    </head>
+    <body>
+	<!-- ACCESSIBILITY LINKS -->
+        <a href="#maincontent" class="screen-reader-shortcut">Skip to main content</a>
+
+        <!-- COOKIES ALERT -->
+        <div class="cookies-alert-placeholder"></div>
+
+        <!-- PRINT HEADER -->
+        <div class="print-title">
+            University of Oxford Department of Computer Science
+        </div>
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+            <div class="site-header-content content-width clearfix">
+		<div class="site-header-logo clearfix">
+		    
+                        <!-- Keep the new line for Firefox / in case images are disabled (see CSS) -->
+                        <img src="/img/logo.png" alt="University of Oxford Department of Computer Science" class="img-responsive" usemap="#compscimap">
+			<map name="compscimap" id="compscimap">
+                                <area shape="rect" coords="0,0,110,110" href="http://www.ox.ac.uk/" alt="University of Oxford" title="University of Oxford"/>
+                                <area shape="rect" coords="130,0,322,109" href="/" alt="Department of Computer Science - Home" title="Department of Computer Science - Home"/>
+                        </map>			
+		    
+                </div>
+                <div class="site-header-icons">
+                    <a href="/aboutus/contact.html" class="btn btn-icon btn-header-icon" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Contact Us">
+                        <img src="/img/icon-mail.png" width="41" height="41" alt="&nbsp;&nbsp;Contact Us&nbsp;&nbsp;">
+                    </a>
+                    <a href="http://www.cs.ox.ac.uk/search/" class="btn btn-icon btn-header-icon site-header-search-toggle" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Search">
+                        <img src="/img/icon-search.png" width="41" height="41" alt="&nbsp;&nbsp;Search&nbsp;&nbsp;">
+                    </a>
+                </div>
+		<div class="site-header-search">
+                    
+		    <form action="//www.cs.ox.ac.uk/search/" method="get" class="site-header-search-form form-inline form-oxford-blue-on-white">
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-term" class="control-label sr-only">Search for</label>
+                            <input id="site-search-term" name="q" type="text" class="form-control squared" size="25" placeholder="Enter search terms...">
+                        </div>
+                        <!-- This is the type selector, using radio buttons
+                        <div class="form-group form-group-lg site-header-search-type">
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="website" checked>
+                                Website
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="people">
+                                People
+                            </label>
+                        </div>
+                        -->
+                        <!-- This is an alternative - dropdown instead of radio buttons
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-type" class="control-label no-bold">in</label>
+                            <select id="site-search-type" name="type" class="form-control squared">
+                                <option value="website">Website</option>
+                                <option value="people">People</option>
+                            </select>
+                        </div>
+                        -->
+                        <div class="form-group form-group-lg">
+                            <button type="submit" class="btn btn-oxford-blue btn-icon squared">
+                                <img src="/img/icon-search-white.png" alt="&nbsp;">
+                                <span class="btn-icon-text text-uppercase" style="padding-right: 11px;">Search</span>
+                            </button>
+                            <input type="hidden" name="cx" value="015502513156171547487:pcshjhkjzqe">
+                            <input type="hidden" name="cof" value="FORID:11">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOP NAVIGATION -->
+        <nav class="navbar navbar-default navbar-primary">
+            <div class="container-fluid content-width">
+
+                <div class="navbar-header">
+                    <button type="button" class="btn-block navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-top" aria-expanded="false">
+                        <span class="sr-only">Toggle</span>
+                        Main Menu
+                        <span class="icon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-top">
+                    <ul class="nav navbar-nav">
+                        <li class="">
+                            <a href="/" class="text-uppercase">
+                                Home
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/admissions/" class="text-uppercase">
+                                Admissions
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/research/" class="text-uppercase">
+                                Research
+                                
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/news-events/" class="text-uppercase">
+                                News &amp; Events
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/aboutus/" class="text-uppercase">
+                                About Us
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/alumni/" class="text-uppercase">
+                                Alumni
+                                 
+                            </a>
+                        </li><span class="visible-md"></span><!-- Break line on md -->
+			<li class="active">
+                            <a href="/ourstudents/index.html" class="text-uppercase">
+                                Our Students
+                                 <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/innovation/" class="text-uppercase">
+                                Innovation
+                                 
+                            </a>
+                        </li>
+                        <!-- <li class="disabled"><a>Disabled</a></li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+	
+
+
+<div class="content-width">
+   <ol class="breadcrumb text-uppercase">
+      <li>
+         <a href="/">Home</a>
+      </li>
+      <li>
+         <a href="/ourstudents/index.html">Our Students</a>
+      </li>
+      <li>
+         <a href="/teaching/courses/">Courses</a>
+      </li>
+      <li>
+         <span class="youarehere">Advanced Security</span>
+      </li>
+   </ol>
+</div>
+<div class="content-width space-below mobile-menu-placeholder visible-xs visible-sm"></div>
+<div class="container-fluid content-width">
+   <div class="row">
+      <div class="col-xs-12 col-md-9 col-md-push-3" id="maincontent">
+         <!-- CONTENT (Column 2) -->
+         <div class="page-title">
+            <h1>Advanced Security: 
+               					2016-2017
+            </h1>
+         </div>
+         <table style="width: 100%">
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Lecturer</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">
+                     <a href="/people/Sadie.Creese">Sadie Creese</a> | 
+                     <a href="/people/Michael.Goldsmith">Michael Goldsmith</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Degrees</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="oneliner">
+                     <a href="/teaching/csp/PartC">Schedule C1 (CS&amp;P)</a> —
+                     
+                     <a href="/teaching/csp">Computer Science and Philosophy</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/bacompsci/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/bacompsci">Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/mcs/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/mcs">Mathematics and Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/MSCinCS/HilaryTerm">Schedule C</a> —
+                     
+                     <a href="/teaching/MSCinCS">MSc in Computer Science</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Term</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">Hilary Term 2017
+                      (18 lectures)
+                     
+                  </p>
+               </td>
+            </tr>
+         </table>
+         <h2>Overview</h2><p>The Advanced Security course is designed to bring students towards the research boundaries in computer security, covering
+         contemporary topics in depth. It is split into two modules, each an area of interest to members of the Computer Security research
+         group. This year the modules will be called:</p>
+         <p><strong>Insider Threat Detection </strong>- <strong>Sadie Creese</strong></p>
+         <p><strong>Cryptography for Privacy: 8&nbsp;lectures, second half of term, Michael Goldsmith</strong></p>
+         <p>Using modern cryptography for limited release of information.<strong><br /></strong></p>
+         <h2>Learning outcomes</h2><p>To attain a deeper understanding of certain contemporary topics in computer security, bridging the gap to research.</p>
+         <p><strong>Insider Threat Detection - tbc</strong></p>
+         <p><strong>Cryptography for Privacy</strong></p>
+         <p>The standard uses of cryptography are intended to allow only intended recipients to extract all of some piece of information,
+         or to give assurance of its validity as a whole; this is a rather blunt instrument for the modern world.&nbsp; As a vendor
+         of age-restricted goods, for instance, you may wish to rely on government certification of your customer's majority, but you
+         have no real business knowing anything more about their identity; so a passport or driving licence, or their certified electronic
+         moral equivalents, are far from ideal from a privacy point of view.&nbsp; The course covers the concepts and definitions required
+         for more subtle uses of cryptography and related mechanisms enabling schemes that allow a <em>verifier</em> to be satisfied
+         about some <em>attribute</em> of a <em>supplicant</em> based on an unforgeable <em>credential</em> backed by a trusted <em>certifier</em>,
+         without leaking further information about the supplicant to the verifier, nor the fact of the request to the certifier.&nbsp;
+         We will also explore some of the challenges that remain, particularly at the frontier between the electronic and human worlds.<strong><br
+         /></strong></p>
+         <h2>Prerequisites</h2><p>For both modules, the Computer Security course (or its equivalent).</p>
+         <p><span>&nbsp;</span></p>
+         <h2>Synopsis</h2><p><strong>Insider Threat Detection - tbc</strong></p>
+         <p><strong>Cryptography for Privacy (weeks 5-8, 2 classes, 1 practical)</strong></p>
+         <p><em>Background</em> Review of the concept of authentication and authentication protocols.&nbsp; Generalisation to authentication
+         of attributes as a goal.&nbsp; Technical challenges and privacy goals. [1-2 lectures]</p>
+         <p><em>Mechanisms underlying the solution </em>Introduction to homomorphic encryption.&nbsp; Zero-knowledge proofs.&nbsp;
+         Secure multi-party computation. [2-3 lectures]</p>
+         <p><em>Attribute-Based Credentials and their applications</em> Use cases.&nbsp; Simplistic solutions.&nbsp; Weaknesses.&nbsp;
+         Unforgeable derived credentials. [2-3 lectures]</p>
+         <p><em>Remaining chellenges</em> in social contexts.&nbsp; Abuse cases.&nbsp; Forward privacy?&nbsp; Possible approaches towards
+         solutions.&nbsp; [1-2 lectures]</p>
+         <h2>Syllabus</h2><p><strong>Insider Threat Detection -tbc</strong>.</p>
+         <p><strong>Cryptography for Privacy</strong></p>
+         <p><em>A</em>uthentication and  authentication protocols.&nbsp; Authentication of  attributes.&nbsp; Privacy goals.&nbsp;
+         Elementary homomorphic encryption.&nbsp; Zero-knowledge proofs.&nbsp; Secure multi-party computation.&nbsp; Attribute-Based
+         Credentials<em>.&nbsp; </em>Applications and use cases.&nbsp; Simplistic and more sophisticated solutions.&nbsp; Unforgeable
+         derived credentials.&nbsp; Remaining chellenges in social contexts.&nbsp; Abuse cases.&nbsp; Forward privacy.</p>
+         <p><em>Examination: both part C undergraduate and MSc students will be examined by take-home assignment over the Easter vacation.
+         Students must answer questions on both modules.</em></p>
+         <h2>Reading list</h2><p><strong>Insider Threat Detection - tbc</strong></p>
+         <p>&nbsp;</p>
+         <p><strong>Cryptography for Privacy</strong></p>
+         <p>Yehuda Lindell (2007) "Anonymous Authentication,"       Journal of Privacy and Confidentiality: <strong>2</strong>(2),
+         Article 4:       <a href="http://repository.cmu.edu/jpc/vol2/iss2/4">PDF</a></p>
+         <p>Ronald L. Rivest, Adi Shamir and Yael Tauman (2001)       "How to Leak a Secret," ASIACRYPT 2001, LNCS <strong>2248</strong>,
+         pp. 552&ndash;565:       <a href="http://people.csail.mit.edu/rivest/pubs/RST01.pdf">PDF</a></p>
+         <p>Ronald L. Rivest, Len Adleman and Michael L. Dertouzos (1978) "On data banks and privacy homomorphisms," <em>Foundations
+         of Secure Computations</em>, pp. 171&ndash;182: <a href="http://smartech.gatech.edu/xmlui/bitstream/handle/1853/40598/g-36-619_142482.pdf#page=181">PDF</a></p>
+         <p>Ronald L. Rivest, Adi Shamir and Len Adleman (1978) "A method for obtaining digital signatures and public-key cryptosystems,"
+         Communications of the ACM <strong>21</strong>(2), pp. 120&ndash;126: <a href="https://www.cs.drexel.edu/~jjohnson/sp03/cs300/lectures/p120-rivest.pdf">PDF</a></p>
+         <p>Craig Gentry (2009) <em>A fully homomorphic encryption scheme</em>, PhD thesis, Stanford University: <a href="http://crypto.stanford.edu/craig/craig-thesis.pdf">PDF</a></p>
+         <p>Craig Gentry (2009) "Fully homomorphic encryption using ideal lattices," STOC, pp. 169&ndash;178, ACM: <a href="https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf">PDF</a></p>
+         <p>Craig Gentry (2010) "Computing Arbitrary Functions of Encrypted Data," Communications of the ACM, <strong>53</strong>(3),
+         pp. 97&ndash;105: PDF available <a href="http://dl.acm.org/citation.cfm?id=1666444">here</a></p>
+         <p>Nigel Smart and Frederik Vercauteren (2010) "Fully homomorphic encryption with relatively small key and ciphertext sizes,"
+         Public Key Cryprography&nbsp;&ndash; PKC 2010, Springer LNCS <strong>6056</strong>, pp. 420&ndash;443: PDF available <a href="http://link.springer.com/chapter/10.1007/978-3-642-13013-7_25">here</a></p>
+         <p>Jean-S&eacute;bastien Coron, Avradip Mandal, David Naccache and Mehdi Tibouchi, "Fully Homomorphic Encryption over the
+         Integers with Shorter Public Keys," Advances in Cryptology&nbsp;&ndash; CRYPTO 2011, Springer LNCS <strong>6841</strong> pp.
+         487&ndash;504: PDF available <a href="http://link.springer.com/chapter/10.1007/978-3-642-22792-9_28">here</a></p>
+         <p>Xiaofeng Chen, Willy Susilo, Jin Li, Duncan Wong, Jianfeng Ma, Shaohua Tang, and Qiang Tang (2015) "Efficient algorithms
+         for secure outsourcing of bilinear pairings" Theoretical Computer Science <strong>562</strong>, pp. 112&ndash;121: PDF available
+         <a href="http://www.sciencedirect.com/science/article/pii/S0304397514007282">here</a></p>
+         <p>Zvika Brakerski and Vinod Vaikuntanathan (2011) "Efficient Fully Homomorphic Encryption from (Standard) LWE," SIAM Journal
+         of Computing, <strong>43</strong>(2), pp. 831&ndash;871: <a href="http://epubs.siam.org/doi/pdf/10.1137/120868669">PDF</a></p>
+         <p>Craig Gentry, Shai Halevi and Nigel Smart (2012) "Fully Homomorphic Encryption with Polylog Overhead," Advances in Cryptology&nbsp;&ndash;
+         EUROCRYPT 2012, Springer LNCS <strong>7237</strong>, pp. 465&ndash;482: PDF available <a href="http://link.springer.com/chapter/10.1007/978-3-642-29011-4_28">here</a></p>
+         <p>Craig Gentry, Shai Halevi and Nigel Smart (2012) "Better Bootstrapping in Fully Homomorphic Encryption," Public Key Cryptography&nbsp;&ndash;
+         PKC 2012, Springer LNCS <strong>7293</strong>, pp. 1&ndash;16: PDF available <a href="http://link.springer.com/chapter/10.1007/978-3-642-30057-8_1">here</a></p>
+         <p>Zvika Brakerski, Craig Gentry and Vinod Vaikuntanathan (2011) "Fully homomorphic encryption without bootstrapping", ACM
+         Transactions on Computation Theory (TOCT) - Special issue on innovations in theoretical computer science 2012 - Part II, <strong>6</strong>(3),
+         July 2014: <a href="http://dl.acm.org/ft_gateway.cfm?id=2633600&amp;ftid=1495730&amp;dwn=1&amp;CFID=755196228&amp;CFTOKEN=38500901">PDF</a></p>
+         <p>Zvika Brakerski, Craig Gentry, and Vinod Vaikuntanathan (2012) "(Leveled) fully homomorphic encryption without bootstrapping,"
+         Innovations in Theoretical Computer Science (ITCS '12), ACM: PDF available <a href="http://dl.acm.org/citation.cfm?id=2090262">here</a></p>
+         <p>Jean-Jacques Quisquater, Louis C. Guillou and Thomas A. Berson (1990) "How to Explain Zero-Knowledge Protocols to Your
+         Children", Advances in Cryptology&nbsp;&ndash; CRYPTO '89, Springer LNCS <strong>435</strong>, pp. 628&ndash;631: <a href="http://www.cs.wisc.edu/~mkowalcz/628.pdf">PDF</a></p>
+         <p>Shimon Even, Oded Goldreich and Abraham Lempel (1985) "A Randomized Protocol for Signing Contracts", Communications of
+         the ACM, <strong>28</strong>(6), pp. 637&ndash;647: PDF available <a href="http://dl.acm.org/citation.cfm?id=3818">here</a></p>
+         <p>Andrew Yao (1982) "Protocols for secure computations", FOCS 2013, pp.&nbsp;160&ndash;164: <a href="http://research.cs.wisc.edu/areas/sec/yao1982-ocr.pdf">PDF</a></p>
+         <p>Ioannis Ioannidis and Ananth Grama (2003) "An efficient protocol for Yao's Millionaires' Problem", HICCS '03: <a href="https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2003-39.pdf">PDF</a></p>
+         <p>Indrajit Ray and Indrakshi Ray (2002) "Fair exchange in e-commerce", ACM SIGecom Exchange <strong>3</strong>(2), pp.&nbsp;9&ndash;17:
+         <a href="http://www.cs.odu.edu/~mukka/cs772s04/slides/Fairexchange.pdf">PDF</a></p>
+         <p>Henning Pagnia and Felix C. G&auml;rtner (1999) "On the impossibility of fair exchange without a trusted third party,"
+         Technische Universit&auml;t Darmstadt Technical Report TUD&ndash;BS&ndash;1999&ndash;02: <a>PDF</a></p>
+         <p>Michael J. Fischer, Nancy A. Lynch and Michael S. Paterson (1985) "Impossibility of Distributed Consensus with One Faulty
+         Process," Journal   of the ACM, <strong>32</strong>(2), pp.&nbsp;374&ndash;382:   <a href="http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf">PDF</a></p>
+         <p>Matthew K. Franklin and Michael K. Reiter (1997) "Fair Exchange with a semi-trusted third party," CCS '97, pp&nbsp;1&ndash;6:
+         <a href="http://www.cs.unc.edu/~reiter/papers/1997/CCS1.pdf">PDF</a></p>
+         <p>N. Asokan, Victor Shoup and Michael Waidner (1998) "Asynchronous protocols for optimistic fair exchange," IEEE Symposium
+         on Research in Security and Privacy, pp.&nbsp;86&ndash;99: <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=839935">PDF</a>;
+         <em>Fixed by</em> Vitaly Shmatikov and John C. Mitchell (2000) "Analysis of a Fair Exchange Protocol", NDSS 2000: <a href="http://www.internetsociety.org/sites/default/files/schmat.pdf">
+         PDF</a></p>
+         <p>Manuel Blum (1983) "How to exchange (secret) keys," ACM TOCS <strong>1</strong>(2), pp.&nbsp;175&ndash;193: <a href="http://dl.acm.org/ft_gateway.cfm?id=357368&amp;ftid=58933&amp;dwn=1&amp;CFID=622133044&amp;CFTOKEN=73565988">PDF</a></p>
+         <p>Dahlia Malkhi, Noam Nisan, Benny Pinkas and Yaron Sella (2004) "Fairplay&nbsp;&ndash; A Secure Two-Party Computation System,"
+         13th USENIX Security Symposium, pp.&nbsp;287&ndash;302: <a href="https://www.usenix.org/legacy/events/sec04/tech/malkhi/malkhi.pdf">PDF</a></p>
+         <p>Chaum, David (1982) "Blind signatures for untraceable payments," Crypto 82, LNCS 1440, pp.&nbsp;199&ndash;203: <a href="http://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF">PDF</a></p>
+         <p>Claus P. Schnorr (1991) "Efficient signature generation for smart cards," Journal of Cryptology, <strong>4</strong>(3),
+         pp. 239&ndash;252: <a href="http://link.springer.com/content/pdf/10.1007/BF00196725.pdf">PDF</a></p>
+         <p>Jan Camenisch and Ivan Damg&aring;rd (2000) "Verifiable encryption, group encryption, and their applications to group signatures
+         and signature sharing schemes," ASIACRYPT 2000, Springer LNCS <strong>1976</strong>, pp.&nbsp;331&ndash;345: <a href="http://elearn.inf.tu-dresden.de/hades/teleseminare/wise0405/Act.%209%20Crypto%20Jan/CamDam9.pdf">PDF</a></p>
+         <p>Jan Camenisch and Anna Lysyanskaya (2002) "A signature scheme with efficient protocols," SCN 2002, Springer LNCS <strong>2576</strong>:
+         <a href="http://static.cs.brown.edu/people/anna/papers/camlys02b.pdf">PDF</a></p>
+         <p>Jan Camenisch and Victor Shoup (2003) "Practical verifiable encryption and decryption of discrete logarithms," CRYPTO 2003,
+         Springer LNCS <strong>2729</strong> pp.&nbsp;126&ndash;144:<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.5299&amp;rep=rep1&amp;type=pdf">PDF</a></p>
+         <p>Ivan Damg&aring;rd and Eiichiro Fujisaki (2002) "An integer commitment scheme based on groups with hidden order," ASIACRYPT
+         2002, Springer LNCS <strong>2501</strong>: <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.29.1774&amp;rep=rep1&amp;type=pdf">PDF</a></p>
+         <p>Jan Camenisch <em>et al</em> (2010) <em>Specification of the Identity Mixer Cryptographic Library (Version 2.3.0)</em>,
+         IBM Zurich Technical Report RZ 3730: Available via <a href="http://domino.research.ibm.com/library/cyberdig.nsf/">this link</a></p>
+         <p>Hemanta Maji, Manoj Prabhakaran and Mike Rosulek (2011) "Attribute-based signatures.'' Topics in Cryptology&ndash;CT-RSA
+         2011, Springer Berlin Heidelberg, pp.&nbsp;376&ndash;392: <a href="http://eprint.iacr.org/2010/595.pdf">PDF</a></p>
+         <p>Ali El Kaafarani, Liqun Chen, Essam Ghada&iuml; and James Davenport (2014) "Attribute-Based Signatures with User-Controlled
+         Linkability," CANS 2014, Springer LNCS <strong>8813</strong>, pp.&nbsp;256&ndash;269: <a href="https://www.researchgate.net/profile/Ali_Kaafarani/publication/267391645_Attribute-Based_Signatures_with_User-Controlled_Linkability/links/544e4bdb0cf26dda088fb60e.pdf">PDF</a></p>
+         <p>Xavier Boyen (2007) "Mesh signatures." Advances in Cryptology&ndash;EUROCRYPT 2007. Springer Berlin Heidelberg, pp.&nbsp;210&ndash;227:
+         <a href="http://www.cs.ucdavis.edu/~franklin/ecs228/pubs/extra_pubs/mesh_sigs.pdf">PDF</a></p>
+         <p>Gergely Alp&aacute;r and Bart Jacobs (2013) "Credential design in attribute-based identity management," 3rd TILTing Perspectives
+         Conference, pp.&nbsp;189&ndash;204: <a href="https://pure.uvt.nl/portal/files/1519132/TP2013_boek_19d.pdf">PDF</a></p>
+         <p>John Kubiatowicz, David Bindel, Yan Chen, Steven Czerwinski, Patrick Eaton, Dennis Geels, Ramakrishna Gummadi, Sean Rhea,
+         Hakim Weatherspoon, Westley Weimer, Chris Wells and Ben Zhao (2000) "Oceanstore: An architecture for global-scale persistent
+         storage." ACM Sigplan Notices <strong>35</strong>(11), pp.&nbsp;190&ndash;201: <a href="https://www.gnunet.org/sites/default/files/p190-kubi.pdf">PDF</a></p>
+         <p><em>A more gentle introduction to some of the concepts...</em></p>
+         <p>Xun Yi, Russell Paulet and Elisa Bertino (2014) <em>Homomorphic Encryption and Applications</em>, Springer, ISBN 978&ndash;3&ndash;319&ndash;1228&ndash;1</p>
+      </div>
+      <div class="col-xs-12 col-md-3 col-md-pull-9 side-menu-col">
+         <h2 class="side-menu-title text-uppercase">
+            <a href="/ourstudents/index.html">Our Students</a>
+         </h2>
+         <ul class="side-menu">
+            <li class="active mobile-menu-source">
+               <a href="/teaching/courses/">Course A-Z</a>
+               <ul>
+                  <li class="side-menu-heading mobile-menu-source">Advanced Security</li>
+                  <ul class="subnav">
+                     <li>
+                        <a href="/teaching/courses/2016-2017/advsec/index.html" class="menu">
+                           <strong>Information</strong>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/teaching/materials16-17/advsec" class="menu">Course materials</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/courses/2016-2017/advsec/pastpapers.html" class="menu">Past exam papers</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/samplesolutions/index.html?courseAcademicYear=20162017&amp;shortName=advsec#advsec"
+                           class="menu">Sample solutions</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/courses/2016-2017/advsec/pastmaterials.html"
+                           class="menu">Previous course materials</a>
+                     </li>
+                  </ul>
+               </ul>
+            </li>
+            <li>
+               <a href="/ourstudents/degrees.html">Degrees</a>
+            </li>
+            <li>
+               <a href="/teaching/handbooks.html">Online Resources &amp; Handbooks</a>
+            </li>
+            <li>
+               <a href="/minerva/">Minerva</a>
+            </li>
+            <li>
+               <a href="/teaching/examinations/">Examinations</a>
+            </li>
+            <li>
+               <a href="/teaching/timetables/">Timetables</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+
+        <!-- BACK TO TOP -->
+        <div class="container-fluid content-width back-to-top">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="scroll-to-anchor"><i class="fa fa-chevron-up"></i> Back to Top</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container-fluid content-width">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <nav class="site-footer-links">
+                            <ul>
+                                <li><a href="/calendars.html">Calendars</a></li>
+                                <li><a href="http://intranet.cs.ox.ac.uk/home2/">Internal</a></li>
+                                <li><a href="/rssfeeds.html">RSS Feeds</a></li>
+                                <li><a href="/sitemap.html">Sitemap</a></li>
+                                <li><a href="/privacy-policy.html">Privacy &amp; Cookies</a></li>
+                                <!--<li><a href="#">Legal</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+		    <div class="col-sm-6">
+                        <aside class="site-footer-social clearfix">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/company/department-of-computer-science-university-of-oxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="LinkedIn">
+                                    <img src="/img/icon-linkedin.png" alt="LinkedIn">
+                                </a></li>
+                                <li><a href="https://twitter.com/CompSciOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Twitter">
+                                    <img src="/img/icon-twitter.png" alt="Twitter">
+                                </a></li>
+                                <li><a href="https://www.facebook.com/DepartmentOfComputerScienceUniversityOfOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Facebook">
+                                    <img src="/img/icon-facebook.png" alt="Facebook">
+                                </a></li>
+                                <li><a href="https://www.flickr.com/photos/computerscienceoxford/" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Flickr">
+                                    <img src="/img/icon-flickr.png" alt="Flickr">
+                                </a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+		<div class="row">
+                    <div class="col-sm-12">
+                        <p class="site-footer-copyright">
+                            <small>&copy; <a href="http://www.ox.ac.uk/">University of Oxford</a> <script>document.write(new Date().getFullYear());</script></small>
+                        </p>
+                        <p class="site-footer-url">
+			    /teaching/courses/2016-2017/advsec/index.html
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <!-- Load scripts last for efficiency - https://developer.yahoo.com/performance/rules.html#js_bottom -->
+        <script src="/js/common.js?version=2"></script>
+	
+        <script type="text/javascript" src="/javascript/rss-newweb.js?version=9"></script>
+	<script type="text/javascript" src="/javascript/ical-newweb.js?version=3"></script>
+
+	<script src="/javascript/newweb_feeds.js?version=1"></script>
+
+	<script src="/javascript/share.js?version=1"></script>
+	
+	
+	
+	
+	
+    </body>
+</html>
+

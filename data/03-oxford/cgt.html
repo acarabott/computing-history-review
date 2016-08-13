@@ -1,0 +1,522 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>              <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" xmlns:og="http://ogp.me/ns#" lang="en-gb" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- CSS files are split up to support IE9 and below - http://blesscss.com/ -->
+	<!--[if gt IE 9]> -->
+            <link rel="stylesheet" href="/css/common.css">
+        <!-- <![endif]-->
+        <!--[if lte IE 9]>
+	    <link rel="stylesheet" href="/css/split/common-blessed1.css">
+<link rel="stylesheet" href="/css/split/common.css">
+        <![endif]-->
+        
+	<!-- IE8 and below also have a problem with multiple fonts in a single file -->
+        <!-- http://www.smashingmagazine.com/2012/07/avoiding-faux-weights-styles-google-web-fonts/ -->
+        <!--[if gt IE 8]> -->
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
+        <!-- <![endif]-->
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400italic">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700italic">
+        <![endif]-->
+
+	<!-- HTML5 shim, Respond.js and ie9.js for IE8 support -->
+        <!-- WARNING: Must be in the <head> but *after* the CSS files -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="/js/ie8.js"></script>
+        <![endif]-->
+
+        <!-- nth-child() support for IE9 -->
+        <!--[if IE 9]>
+            <script src="/js/ie9.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="/favicon.ico">
+	
+	
+<style type="text/css">
+
+#breadcrumb
+{
+	display: none;
+}
+
+wbr:after { content: "\00200B"; }
+
+.slideshow .bx-pager-link
+{
+	outline: none;
+}
+</style>
+
+<link rel="stylesheet" href="/styles/fix-contents.css"></link>
+<meta name="keywords"
+      content="Department of Computer Science, Course, 2016-2017, cgt"></meta>
+<meta name="description"
+      content="Department of Computer Science, 2016-2017, cgt, Computational Game Theory"></meta>
+<title>Computational Game Theory</title>
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	/**
+	**  Honour the "do not track" browser setting.
+	**/
+	if(typeof navigator.doNotTrack === "undefined" || (navigator.doNotTrack !== 'yes' && navigator.doNotTrack !== '1'))
+	{
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25164877-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	}
+  
+// ]]>
+</script>
+
+    </head>
+    <body>
+	<!-- ACCESSIBILITY LINKS -->
+        <a href="#maincontent" class="screen-reader-shortcut">Skip to main content</a>
+
+        <!-- COOKIES ALERT -->
+        <div class="cookies-alert-placeholder"></div>
+
+        <!-- PRINT HEADER -->
+        <div class="print-title">
+            University of Oxford Department of Computer Science
+        </div>
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+            <div class="site-header-content content-width clearfix">
+		<div class="site-header-logo clearfix">
+		    
+                        <!-- Keep the new line for Firefox / in case images are disabled (see CSS) -->
+                        <img src="/img/logo.png" alt="University of Oxford Department of Computer Science" class="img-responsive" usemap="#compscimap">
+			<map name="compscimap" id="compscimap">
+                                <area shape="rect" coords="0,0,110,110" href="http://www.ox.ac.uk/" alt="University of Oxford" title="University of Oxford"/>
+                                <area shape="rect" coords="130,0,322,109" href="/" alt="Department of Computer Science - Home" title="Department of Computer Science - Home"/>
+                        </map>			
+		    
+                </div>
+                <div class="site-header-icons">
+                    <a href="/aboutus/contact.html" class="btn btn-icon btn-header-icon" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Contact Us">
+                        <img src="/img/icon-mail.png" width="41" height="41" alt="&nbsp;&nbsp;Contact Us&nbsp;&nbsp;">
+                    </a>
+                    <a href="http://www.cs.ox.ac.uk/search/" class="btn btn-icon btn-header-icon site-header-search-toggle" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Search">
+                        <img src="/img/icon-search.png" width="41" height="41" alt="&nbsp;&nbsp;Search&nbsp;&nbsp;">
+                    </a>
+                </div>
+		<div class="site-header-search">
+                    
+		    <form action="//www.cs.ox.ac.uk/search/" method="get" class="site-header-search-form form-inline form-oxford-blue-on-white">
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-term" class="control-label sr-only">Search for</label>
+                            <input id="site-search-term" name="q" type="text" class="form-control squared" size="25" placeholder="Enter search terms...">
+                        </div>
+                        <!-- This is the type selector, using radio buttons
+                        <div class="form-group form-group-lg site-header-search-type">
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="website" checked>
+                                Website
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="people">
+                                People
+                            </label>
+                        </div>
+                        -->
+                        <!-- This is an alternative - dropdown instead of radio buttons
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-type" class="control-label no-bold">in</label>
+                            <select id="site-search-type" name="type" class="form-control squared">
+                                <option value="website">Website</option>
+                                <option value="people">People</option>
+                            </select>
+                        </div>
+                        -->
+                        <div class="form-group form-group-lg">
+                            <button type="submit" class="btn btn-oxford-blue btn-icon squared">
+                                <img src="/img/icon-search-white.png" alt="&nbsp;">
+                                <span class="btn-icon-text text-uppercase" style="padding-right: 11px;">Search</span>
+                            </button>
+                            <input type="hidden" name="cx" value="015502513156171547487:pcshjhkjzqe">
+                            <input type="hidden" name="cof" value="FORID:11">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOP NAVIGATION -->
+        <nav class="navbar navbar-default navbar-primary">
+            <div class="container-fluid content-width">
+
+                <div class="navbar-header">
+                    <button type="button" class="btn-block navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-top" aria-expanded="false">
+                        <span class="sr-only">Toggle</span>
+                        Main Menu
+                        <span class="icon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-top">
+                    <ul class="nav navbar-nav">
+                        <li class="">
+                            <a href="/" class="text-uppercase">
+                                Home
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/admissions/" class="text-uppercase">
+                                Admissions
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/research/" class="text-uppercase">
+                                Research
+                                
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/news-events/" class="text-uppercase">
+                                News &amp; Events
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/aboutus/" class="text-uppercase">
+                                About Us
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/alumni/" class="text-uppercase">
+                                Alumni
+                                 
+                            </a>
+                        </li><span class="visible-md"></span><!-- Break line on md -->
+			<li class="active">
+                            <a href="/ourstudents/index.html" class="text-uppercase">
+                                Our Students
+                                 <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/innovation/" class="text-uppercase">
+                                Innovation
+                                 
+                            </a>
+                        </li>
+                        <!-- <li class="disabled"><a>Disabled</a></li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+	
+
+
+<div class="content-width">
+   <ol class="breadcrumb text-uppercase">
+      <li>
+         <a href="/">Home</a>
+      </li>
+      <li>
+         <a href="/ourstudents/index.html">Our Students</a>
+      </li>
+      <li>
+         <a href="/teaching/courses/">Courses</a>
+      </li>
+      <li>
+         <span class="youarehere">Computational Game Theory</span>
+      </li>
+   </ol>
+</div>
+<div class="content-width space-below mobile-menu-placeholder visible-xs visible-sm"></div>
+<div class="container-fluid content-width">
+   <div class="row">
+      <div class="col-xs-12 col-md-9 col-md-push-3" id="maincontent">
+         <!-- CONTENT (Column 2) -->
+         <div class="page-title">
+            <h1>Computational Game Theory: 
+               					2016-2017
+            </h1>
+         </div>
+         <table style="width: 100%">
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Lecturer</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">
+                     <a href="/people/Edith.Elkind">Edith Elkind</a> | 
+                     <a href="/people/Michael.Wooldridge">Michael Wooldridge</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Degrees</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="oneliner">
+                     <a href="/teaching/csp/PartC">Schedule C1 (CS&amp;P)</a> —
+                     
+                     <a href="/teaching/csp">Computer Science and Philosophy</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/bacompsci/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/bacompsci">Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/mcs/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/mcs">Mathematics and Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/MSCinCS/MichaelmasTerm">Schedule C</a> —
+                     
+                     <a href="/teaching/MSCinCS">MSc in Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="http://www.maths.ox.ac.uk/members/students/postgraduate-courses/msc-mfocs">MSc in Mathematics and Foundations of Computer Science</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Term</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">Michaelmas Term 2016
+                      (20 lectures)
+                     
+                  </p>
+               </td>
+            </tr>
+         </table>
+         <h2>Overview</h2>Game theory is the mathematical theory of strategic interactions between self-interested agents. Game theory provides a range
+         of models for representing strategic interactions, and associated with these, a family of solution concepts, which attempt
+         to characterise the rational outcomes of games. Game theory is important to computer science for several reasons: First, interaction
+         is a fundamental topic in computer science, and if it is assumed that system components are self-interested, then the models
+         and solution concepts of game theory seems to provide an appropriate framework with which to model such systems. Second, the
+         problem of computing with the solution concepts proposed by game theory raises important challenges for computer science,
+         which test the boundaries of current algorithmic techniques. This course aims to introduce the key concepts of game theory
+         for a computer science audience, emphasising both the applicability of game theoretic concepts in a computational setting,
+         and the role of computation in game theoretic problems.</p><p>The course assumes no prior knowledge of game theory.</p><p>The
+         aims of the course are threefold:
+         1. to introduce the key models and solution concepts of non-cooperative and cooperative game theory;
+         2. to introduce the issues that arise when computing with game theoretic solution concepts, and the main approaches to overcoming
+         these issues, and to illustrate the role that computation plays in game theory;
+         3. to introduce a research-level topic in computational game theory.
+         <h2>Learning outcomes</h2>Upon completing this course, a student will:
+         1. understand the key concepts of preferences, utility, and decision-making under certainty and uncertainty, and the key computational
+         issues in 1representing and manipulating representations of preferences and utility;
+         2. understand and be able to apply the key models and solution concepts of non-cooperative game theory, including both strategic
+         form and extensive form games, and the key computational issues that arise when applying these models;
+         3. understand and be able to apply the key models and solution concepts of cooperative game theory, including TU and NTU games;
+         4. understand a contemporary research-level topic at the intersection between game theory and computer science.
+         <h2>Syllabus</h2><P>1. Preferences, Utility, and Goals:<BR>• Preference relations and their interpretation; utility as a numeric model of preference.<BR>•
+         Decision-making under uncertainty: preferences over lotteries; von Neumann and Morgenstern utility functions; expected utility
+         and expected utility maximisation.<BR>• Paradoxes of expected utility maximisation; framing effects and prospect theory.<BR>•
+         Compact representations for preference relations (e.g., CP-NETS).<BR>• Dichotomous preferences and goals. Representations
+         for specifying goals (e.g., weighted formula representations for combinatorial domains); expressiveness and computational
+         issues.</P>
+         
+         
+         <P>2. Strategic Form Non-Cooperative Games:<BR>• The basic model; solution concepts: pure strategy Nash equilibrium; dominant
+         strategies; notable games (e.g., Prisoner’s Dilemma; Game of Chicken; Stag Hunt); coordination games and focal points; complexity
+         of pure strategy Nash equilibrium.<BR>• Measuring social welfare; utilitarian social welfare; egalitarian social welfare.<BR>•
+         Mixed strategies; Nash’s theorem; -Nash equilibrium.<BR>• Computing mixed strategy Nash equilibria: the Lemke-Howson algorithm.<BR>•
+         Zero sum games; the Minimax Theorem.<BR>• Compact representations for strategic form games; Boolean games; congestion games.</P>
+         
+         <P><BR>3. Iterated Games:<BR>• Finitely repeated games and backward induction.<BR>• Infinitely repeated games; measuing utility
+         over infinite plays; modelling strategies as finite state machines with output (Moore machines); the folk theorems; implications
+         of using bounded automata to model strategies.<BR>• Iterated Boolean games.<BR>• Axelrod’s tournament; the Hawk-Dove game;
+         evolutionary game theory; evolutionarily stable strategies.</P>
+         
+         <P><BR>4. Extensive Form Non-Cooperative Games:<BR>• Extensive form games of perfect information; Zermelo’s algorithm and
+         backward induction; P-completeness of Zermelo’s algorithm; subgame perfect equilibrium.<BR>• Win-lose games; Zermelo’s theorem.<BR>•
+         Compact representations for extensive form games; the PEEK games and EXPTIME-completeness results; the Game Description Language
+         (GDL).<BR>• Imperfect information games; information sets; solution concepts for imperfect information games.<BR>• Compact
+         representations for imperfect information games; PEEK games with incomplete information; undecidability results.</P>
+         
+         <P><BR>5. Cooperative Games:<BR>• Transferable utility (TU) characteristic function games; the basic model; stability & fairness
+         solution concepts: the core; the kernel; the Nucleolus; the cost of stability; the Shapley value; the Banzhaf index.<BR>•
+         Compact representations for TU games; induced subgraph representation; marginal contribution nets.<BR>• Simple TU games; swap
+         and trade robustness; weighted voting games; vector weighted voting games; network flow games.<BR>• NTU games and representations
+         for them; hedonic games.<BR>• Coalition structure formation; exact and approximation algorithms.</P>
+         
+         <P><BR>6. Social Choice:<BR>• social choice and social welfare functions;<BR>• Condorcet’s paradox;<BR>• desirable properties
+         of social choice procedures (Pareto condition, independence of irrelevant alternatives);<BR>• popular voting procedures (Borda,
+         etc);<BR>• Arrow’s theorem;<BR>• strategic manipulation of voting procedures and associated impossibility results (Gibbard-Satterthwaite
+         theorem);<BR>• complexity of manipulation for voting protocols.</P>
+         
+         <P><BR>7. Research Topics:<BR>In the final part of the course we will focus on a research topic from the contemporary literature;
+         possible examples include:<BR>• algorithmic mechanism design & auctions;<BR>• selfish routing, the price of anarchy;<BR>•
+         security games.</P>
+         <h2>Reading list</h2><p>Recommended reading:</p>
+         <p>&bull; Michael Maschler, Eilon Solan, Shmuel Zamir. Game Theory, Cambridge UP, 2013.<br />The best contemporary overview
+         of game theory.<br />&bull; Martin J. Osborne and Ariel Rubinstein. A Course in Game Theory. MIT Press, 1994.<br />An excellent
+         introduction to game theory, freely available from: 4http://books.osborne.economics.utoronto.ca<br />&bull; Y. Shoham and
+         K. Leyton-Brown. Multiagent Systems. Cambridge UP, 2009.<br />Freely available from: http://www.masfoundations.org/<br />&bull;
+         G. Chalkiadakis, E. Elkind, and M. Wooldridge. Computational Aspects of Cooperative Game Theory. Morgan &amp; Claypool, 2011.<br
+         />The book for cooperative games.</p>
+      </div>
+      <div class="col-xs-12 col-md-3 col-md-pull-9 side-menu-col">
+         <h2 class="side-menu-title text-uppercase">
+            <a href="/ourstudents/index.html">Our Students</a>
+         </h2>
+         <ul class="side-menu">
+            <li class="active mobile-menu-source">
+               <a href="/teaching/courses/">Course A-Z</a>
+               <ul>
+                  <li class="side-menu-heading mobile-menu-source">Computational Game Theory</li>
+                  <ul class="subnav">
+                     <li>
+                        <a href="/teaching/courses/2016-2017/cgt/index.html" class="menu">
+                           <strong>Information</strong>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/teaching/materials16-17/cgt" class="menu">Course materials</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/courses/2016-2017/cgt/pastmaterials.html" class="menu">Previous course materials</a>
+                     </li>
+                  </ul>
+               </ul>
+            </li>
+            <li>
+               <a href="/ourstudents/degrees.html">Degrees</a>
+            </li>
+            <li>
+               <a href="/teaching/handbooks.html">Online Resources &amp; Handbooks</a>
+            </li>
+            <li>
+               <a href="/minerva/">Minerva</a>
+            </li>
+            <li>
+               <a href="/teaching/examinations/">Examinations</a>
+            </li>
+            <li>
+               <a href="/teaching/timetables/">Timetables</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+
+        <!-- BACK TO TOP -->
+        <div class="container-fluid content-width back-to-top">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="scroll-to-anchor"><i class="fa fa-chevron-up"></i> Back to Top</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container-fluid content-width">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <nav class="site-footer-links">
+                            <ul>
+                                <li><a href="/calendars.html">Calendars</a></li>
+                                <li><a href="http://intranet.cs.ox.ac.uk/home2/">Internal</a></li>
+                                <li><a href="/rssfeeds.html">RSS Feeds</a></li>
+                                <li><a href="/sitemap.html">Sitemap</a></li>
+                                <li><a href="/privacy-policy.html">Privacy &amp; Cookies</a></li>
+                                <!--<li><a href="#">Legal</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+		    <div class="col-sm-6">
+                        <aside class="site-footer-social clearfix">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/company/department-of-computer-science-university-of-oxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="LinkedIn">
+                                    <img src="/img/icon-linkedin.png" alt="LinkedIn">
+                                </a></li>
+                                <li><a href="https://twitter.com/CompSciOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Twitter">
+                                    <img src="/img/icon-twitter.png" alt="Twitter">
+                                </a></li>
+                                <li><a href="https://www.facebook.com/DepartmentOfComputerScienceUniversityOfOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Facebook">
+                                    <img src="/img/icon-facebook.png" alt="Facebook">
+                                </a></li>
+                                <li><a href="https://www.flickr.com/photos/computerscienceoxford/" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Flickr">
+                                    <img src="/img/icon-flickr.png" alt="Flickr">
+                                </a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+		<div class="row">
+                    <div class="col-sm-12">
+                        <p class="site-footer-copyright">
+                            <small>&copy; <a href="http://www.ox.ac.uk/">University of Oxford</a> <script>document.write(new Date().getFullYear());</script></small>
+                        </p>
+                        <p class="site-footer-url">
+			    /teaching/courses/2016-2017/cgt/index.html
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <!-- Load scripts last for efficiency - https://developer.yahoo.com/performance/rules.html#js_bottom -->
+        <script src="/js/common.js?version=2"></script>
+	
+        <script type="text/javascript" src="/javascript/rss-newweb.js?version=9"></script>
+	<script type="text/javascript" src="/javascript/ical-newweb.js?version=3"></script>
+
+	<script src="/javascript/newweb_feeds.js?version=1"></script>
+
+	<script src="/javascript/share.js?version=1"></script>
+	
+	
+	
+	
+	
+    </body>
+</html>
+

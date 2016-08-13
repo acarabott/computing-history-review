@@ -1,0 +1,248 @@
+{
+  "classes": [
+    {
+      "title": "Computers in Our World",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos109"
+    },
+    {
+      "title": "General Computer Science:  An Interdisciplinary Approach",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos126"
+    },
+    {
+      "title": "Intro. To Programming Systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos217"
+    },
+    {
+      "title": "Algorithms and Data Structures",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos226"
+    },
+    {
+      "title": "Integ/Quantitative Intro to Nat Sci II",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos233"
+    },
+    {
+      "title": "An Integrated, Quantitative Introduction to the Natural Sciences II",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos234"
+    },
+    {
+      "title": "Operating Systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos318"
+    },
+    {
+      "title": "Functional Programming",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos326"
+    },
+    {
+      "title": "Reasoning about Computation",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos340"
+    },
+    {
+      "title": "Computer Architecture and Organization",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos375"
+    },
+    {
+      "title": "Junior Independent Work",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos397"
+    },
+    {
+      "title": "Machine Learning and Artificial Intelligence",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos402"
+    },
+    {
+      "title": "Distributed Systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos418"
+    },
+    {
+      "title": "Computer Vision",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos429"
+    },
+    {
+      "title": "Information Security (See ELE432)",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos432"
+    },
+    {
+      "title": "Computer Architecture (See ELE475)",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos475"
+    },
+    {
+      "title": "Theory of Computation",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos487"
+    },
+    {
+      "title": "Senior Independent Work",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos497"
+    },
+    {
+      "title": "Automated Reasoning about Software",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos516"
+    },
+    {
+      "title": "Advanced Algorithm Design",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos521"
+    },
+    {
+      "title": "Advanced Computer Graphics",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos526"
+    },
+    {
+      "title": "Introduction to Genomics and Computational Molecular Biology",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos551"
+    },
+    {
+      "title": "Advanced Computer Networks",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos561"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Locally Decodable Codes and their applications",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos597A"
+    },
+    {
+      "title": "Recent Developments in Program Obfuscation",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos597C"
+    },
+    {
+      "title": "Reasoning about concurrent systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos597D"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Securing Hardware",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos597E"
+    },
+    {
+      "title": "Proofs, beliefs and algorithms through the lens of Sum of Squares",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos597F"
+    },
+    {
+      "title": "Junior Independent Work",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos981"
+    },
+    {
+      "title": "Senior Thesis",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall16/cos984"
+    },
+    {
+      "title": "General Computer Science",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos126"
+    },
+    {
+      "title": "General Computer Science",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos126"
+    },
+    {
+      "title": "Intro. To Programming Systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos217"
+    },
+    {
+      "title": "Algorithms and Data Structures",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos226"
+    },
+    {
+      "title": "Integ/Quantitative Intro to Nat Sci II (See ISC233)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos233"
+    },
+    {
+      "title": "An Integrated, Quantitative Introduction to the Natural Sciences II (See ISC234)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos234"
+    },
+    {
+      "title": "Computer and Electronic Music through Programming, Performance, and Composition",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos314"
+    },
+    {
+      "title": "Compiling Techniques",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos320"
+    },
+    {
+      "title": "Adv. Programming Techniques",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos333"
+    },
+    {
+      "title": "Reasoning about Computation",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos340"
+    },
+    {
+      "title": "Introduction to Graph Theory (See MAT375)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos342"
+    },
+    {
+      "title": "Junior Independent Work",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos398"
+    },
+    {
+      "title": "Introduction to Machine Translation (See TRA301)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos401"
+    },
+    {
+      "title": "Distributed Systems",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos418"
+    },
+    {
+      "title": "Theory of Algorithms",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos423"
+    },
+    {
+      "title": "Fundamentals of Machine Learning",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos424"
+    },
+    {
+      "title": "Computer Graphics",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos426"
+    },
+    {
+      "title": "Information Security (See ELE 432)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos432"
+    },
+    {
+      "title": "Cryptography",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos433"
+    },
+    {
+      "title": "Information Retrieval, Discovery & Delivery",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos435"
+    },
+    {
+      "title": "Innovating Across Tech., Business & Mkts.",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos448"
+    },
+    {
+      "title": "Computer Networks",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos461"
+    },
+    {
+      "title": "Politics in the Age of Digital Media (See POL478)",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos478"
+    },
+    {
+      "title": "Intro to Deep Learning",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos495"
+    },
+    {
+      "title": "Senior Independent Work",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos498"
+    },
+    {
+      "title": "Theoretical Machine Learning",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos511"
+    },
+    {
+      "title": "Computational Complexity",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos522"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Connectomics",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos598C"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Geometric Modeling for Computer Graphics",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos598D"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Securing Cyberspace with Big Data",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos598E"
+    },
+    {
+      "title": "Advanced Topics in Computer Science - Systems and Analytics of Big Data",
+      "url": "https://www.cs.princeton.edu/courses/archive/courses/archive/spring16/cos598F"
+    }
+  ]
+}

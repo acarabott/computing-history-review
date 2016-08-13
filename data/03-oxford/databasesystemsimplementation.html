@@ -1,0 +1,502 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>              <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" xmlns:og="http://ogp.me/ns#" lang="en-gb" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- CSS files are split up to support IE9 and below - http://blesscss.com/ -->
+	<!--[if gt IE 9]> -->
+            <link rel="stylesheet" href="/css/common.css">
+        <!-- <![endif]-->
+        <!--[if lte IE 9]>
+	    <link rel="stylesheet" href="/css/split/common-blessed1.css">
+<link rel="stylesheet" href="/css/split/common.css">
+        <![endif]-->
+        
+	<!-- IE8 and below also have a problem with multiple fonts in a single file -->
+        <!-- http://www.smashingmagazine.com/2012/07/avoiding-faux-weights-styles-google-web-fonts/ -->
+        <!--[if gt IE 8]> -->
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
+        <!-- <![endif]-->
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400italic">
+            <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:700italic">
+        <![endif]-->
+
+	<!-- HTML5 shim, Respond.js and ie9.js for IE8 support -->
+        <!-- WARNING: Must be in the <head> but *after* the CSS files -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="/js/ie8.js"></script>
+        <![endif]-->
+
+        <!-- nth-child() support for IE9 -->
+        <!--[if IE 9]>
+            <script src="/js/ie9.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="/favicon.ico">
+	
+	
+<style type="text/css">
+
+#breadcrumb
+{
+	display: none;
+}
+
+wbr:after { content: "\00200B"; }
+
+.slideshow .bx-pager-link
+{
+	outline: none;
+}
+</style>
+
+<link rel="stylesheet" href="/styles/fix-contents.css"></link>
+<meta name="keywords"
+      content="Department of Computer Science, Course, 2016-2017, databasesystemsimplementation"></meta>
+<meta name="description"
+      content="Department of Computer Science, 2016-2017, databasesystemsimplementation, Database Systems Implementation"></meta>
+<title>Database Systems Implementation</title>
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	/**
+	**  Honour the "do not track" browser setting.
+	**/
+	if(typeof navigator.doNotTrack === "undefined" || (navigator.doNotTrack !== 'yes' && navigator.doNotTrack !== '1'))
+	{
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25164877-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	}
+  
+// ]]>
+</script>
+
+    </head>
+    <body>
+	<!-- ACCESSIBILITY LINKS -->
+        <a href="#maincontent" class="screen-reader-shortcut">Skip to main content</a>
+
+        <!-- COOKIES ALERT -->
+        <div class="cookies-alert-placeholder"></div>
+
+        <!-- PRINT HEADER -->
+        <div class="print-title">
+            University of Oxford Department of Computer Science
+        </div>
+
+        <!-- SITE HEADER -->
+        <header class="site-header">
+            <div class="site-header-content content-width clearfix">
+		<div class="site-header-logo clearfix">
+		    
+                        <!-- Keep the new line for Firefox / in case images are disabled (see CSS) -->
+                        <img src="/img/logo.png" alt="University of Oxford Department of Computer Science" class="img-responsive" usemap="#compscimap">
+			<map name="compscimap" id="compscimap">
+                                <area shape="rect" coords="0,0,110,110" href="http://www.ox.ac.uk/" alt="University of Oxford" title="University of Oxford"/>
+                                <area shape="rect" coords="130,0,322,109" href="/" alt="Department of Computer Science - Home" title="Department of Computer Science - Home"/>
+                        </map>			
+		    
+                </div>
+                <div class="site-header-icons">
+                    <a href="/aboutus/contact.html" class="btn btn-icon btn-header-icon" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Contact Us">
+                        <img src="/img/icon-mail.png" width="41" height="41" alt="&nbsp;&nbsp;Contact Us&nbsp;&nbsp;">
+                    </a>
+                    <a href="http://www.cs.ox.ac.uk/search/" class="btn btn-icon btn-header-icon site-header-search-toggle" data-toggle="tooltip" data-placement="left" data-container=".site-header" title="Search">
+                        <img src="/img/icon-search.png" width="41" height="41" alt="&nbsp;&nbsp;Search&nbsp;&nbsp;">
+                    </a>
+                </div>
+		<div class="site-header-search">
+                    
+		    <form action="//www.cs.ox.ac.uk/search/" method="get" class="site-header-search-form form-inline form-oxford-blue-on-white">
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-term" class="control-label sr-only">Search for</label>
+                            <input id="site-search-term" name="q" type="text" class="form-control squared" size="25" placeholder="Enter search terms...">
+                        </div>
+                        <!-- This is the type selector, using radio buttons
+                        <div class="form-group form-group-lg site-header-search-type">
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="website" checked>
+                                Website
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="type" value="people">
+                                People
+                            </label>
+                        </div>
+                        -->
+                        <!-- This is an alternative - dropdown instead of radio buttons
+                        <div class="form-group form-group-lg">
+                            <label for="site-search-type" class="control-label no-bold">in</label>
+                            <select id="site-search-type" name="type" class="form-control squared">
+                                <option value="website">Website</option>
+                                <option value="people">People</option>
+                            </select>
+                        </div>
+                        -->
+                        <div class="form-group form-group-lg">
+                            <button type="submit" class="btn btn-oxford-blue btn-icon squared">
+                                <img src="/img/icon-search-white.png" alt="&nbsp;">
+                                <span class="btn-icon-text text-uppercase" style="padding-right: 11px;">Search</span>
+                            </button>
+                            <input type="hidden" name="cx" value="015502513156171547487:pcshjhkjzqe">
+                            <input type="hidden" name="cof" value="FORID:11">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOP NAVIGATION -->
+        <nav class="navbar navbar-default navbar-primary">
+            <div class="container-fluid content-width">
+
+                <div class="navbar-header">
+                    <button type="button" class="btn-block navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-top" aria-expanded="false">
+                        <span class="sr-only">Toggle</span>
+                        Main Menu
+                        <span class="icon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-top">
+                    <ul class="nav navbar-nav">
+                        <li class="">
+                            <a href="/" class="text-uppercase">
+                                Home
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/admissions/" class="text-uppercase">
+                                Admissions
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/research/" class="text-uppercase">
+                                Research
+                                
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/news-events/" class="text-uppercase">
+                                News &amp; Events
+                                
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/aboutus/" class="text-uppercase">
+                                About Us
+                                 
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="/alumni/" class="text-uppercase">
+                                Alumni
+                                 
+                            </a>
+                        </li><span class="visible-md"></span><!-- Break line on md -->
+			<li class="active">
+                            <a href="/ourstudents/index.html" class="text-uppercase">
+                                Our Students
+                                 <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+			<li class="">
+                            <a href="/innovation/" class="text-uppercase">
+                                Innovation
+                                 
+                            </a>
+                        </li>
+                        <!-- <li class="disabled"><a>Disabled</a></li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+	
+
+
+<div class="content-width">
+   <ol class="breadcrumb text-uppercase">
+      <li>
+         <a href="/">Home</a>
+      </li>
+      <li>
+         <a href="/ourstudents/index.html">Our Students</a>
+      </li>
+      <li>
+         <a href="/teaching/courses/">Courses</a>
+      </li>
+      <li>
+         <span class="youarehere">Database Systems Implementation</span>
+      </li>
+   </ol>
+</div>
+<div class="content-width space-below mobile-menu-placeholder visible-xs visible-sm"></div>
+<div class="container-fluid content-width">
+   <div class="row">
+      <div class="col-xs-12 col-md-9 col-md-push-3" id="maincontent">
+         <!-- CONTENT (Column 2) -->
+         <div class="page-title">
+            <h1>Database Systems Implementation: 
+               					2016-2017
+            </h1>
+         </div>
+         <table style="width: 100%">
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Lecturer</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">
+                     <a href="/people/Dan.Olteanu">Dan Olteanu</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Degrees</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="oneliner">
+                     <a href="/teaching/bacompsci/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/bacompsci">Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/mcs/PartC">Schedule C1</a> —
+                     
+                     <a href="/teaching/mcs">Mathematics and Computer Science</a>
+                  </p>
+                  <p class="oneliner">
+                     <a href="/teaching/MSCinCS/HilaryTerm">Schedule C</a> —
+                     
+                     <a href="/teaching/MSCinCS">MSc in Computer Science</a>
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td class="personInfo" style="vertical-align: top; padding-right:1em">
+                  <p>
+                     <b>Term</b>
+                  </p>
+               </td>
+               <td>
+                  <p class="listedlinks">Hilary Term 2017
+                      (20 lectures)
+                     
+                  </p>
+               </td>
+            </tr>
+         </table>
+         <h2>Overview</h2><P>This course examines the data structures and algorithms underlying database management systems such as Oracle or PostgreSQL.
+         It covers techniques from both research literature and commercial systems.</P>
+         <h2>Learning outcomes</h2><p>At the end of this course, students should</p>
+         <ul>
+         <li>have a good insight into how DBMSs function internally</li>
+         <li>understand how to analyse the performance of data-intensive systems</li>
+         <li>be familiar with a variety of programming techniques for large-scale data manipulation</li>
+         <li>apply the insights achieved to build the major components of a mini-DBMS</li>
+         </ul>
+         <h2>Prerequisites</h2><P>This course assumes a reasonable understanding of the following topics:</P>
+         
+         
+         <UL>
+         <LI>developing applications on relational DBMSs (SQL, relational algebra - completed an introductory course on Databases)</LI>
+         <LI>sorting/searching techniques (quick/merge sorts, binary trees, hash tables - course on Design and Analysis of Algorithms)</LI>
+         </UL>
+         
+         
+         <P>This course will use C and C++.  The practicals will have increasing difficulty, to allow students to learn the languages.</P>
+         <h2>Synopsis</h2><UL>
+         <LI>Hardware: Secondary-storage devices; disk access time; Input/Output model of computation; optimized disk access;</LI>
+         <LI>File and System Structure: page layout and access; buffer management; file organizations (heap, sorted, clustered); row
+         stores versus column stores; </LI>
+         <LI>Indexes: Tree-structured (ISAM, B+tree); hash-based (static, extendible, linear); multi-dimensional (UB-tree, k-d-b tree,
+         R-tree) </LI>
+         <LI>External Sorting: external n-way merge sort; sorting based on B+trees; </LI>
+         <LI>Query Evaluation: Selection (index-based, hash-based, arbitrary selection predicates); projection (duplicate elimination;
+         hash-based, sorting-based); joins (nested-loops, index nested, block nested, sort-merge, hash joins); set operations; aggregation;
+         impact of buffering, pipelining, blocking; evaluation techniques in existing systems; </LI>
+         <LI>Query Optimization: cardinality estimation for all query operators, histograms ; equivalences of relational algebra; query
+         plans; cost estimation; nested queries; join optimization algorithms (dynamic programming and greedy join enumeration approaches);
+         optimization techniques in existing systems; </LI>
+         <LI>Transaction Management: ACID properties; concurrency control (serializability criteria); locking (two-phase locking, index
+         locking,  multiple granularity locks, intention locks); deadlock detection; isolation levels; concurrency control in existing
+         systems;</LI>
+         </UL>
+         <h2>Syllabus</h2>The internals of a relational database management system; data storage; buffer management; indexes; sorting; query evaluation
+         and optimization; transaction management; concurrency control; comparisons of existing commercial systems; use cases: PostgreSQL
+         and IBM DB2.
+         <h2>Reading list</h2><p>We will follow closely chapters from these two books</p>       <ul>       <li>Ramakrishan and Gehrke. Database Management
+         Systems, McGraw-Hill, 2002  (3rd ed).</li>       <li>Garcia-Molina, Ullman, Widom. Database Systems: The Complete Book. Prentice
+         Hall, 2002 (or 2008, 2nd ed).</li>    </ul>         <p>We will also discuss (or refer to) relevant research papers published
+         in recent years in top conferences and journals in database systems and data management. </p>        <!--UL>       <LI>Goetz
+         Graefe. Query evaluation techniques for large databases. ACM <BR>Computing Surveys (CSUR).  Volume 25 , Issue 2 (June 1993).
+         Available at <A href="http://portal.acm.org/citation.cfm?id=152611">http://portal.acm.org/citation.cfm?id=152611</A>. </LI>
+         </UL-->
+      </div>
+      <div class="col-xs-12 col-md-3 col-md-pull-9 side-menu-col">
+         <h2 class="side-menu-title text-uppercase">
+            <a href="/ourstudents/index.html">Our Students</a>
+         </h2>
+         <ul class="side-menu">
+            <li class="active mobile-menu-source">
+               <a href="/teaching/courses/">Course A-Z</a>
+               <ul>
+                  <li class="side-menu-heading mobile-menu-source">Database Systems Implementation</li>
+                  <ul class="subnav">
+                     <li>
+                        <a href="/teaching/courses/2016-2017/databasesystemsimplementation/index.html"
+                           class="menu">
+                           <strong>Information</strong>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="/teaching/materials16-17/databasesystemsimplementation" class="menu">Course materials</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/courses/2016-2017/databasesystemsimplementation/pastpapers.html"
+                           class="menu">Past exam papers</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/samplesolutions/index.html?courseAcademicYear=20162017&amp;shortName=databasesystemsimplementation#databasesystemsimplementation"
+                           class="menu">Sample solutions</a>
+                     </li>
+                     <li>
+                        <a href="/teaching/internal/courses/2016-2017/databasesystemsimplementation/pastmaterials.html"
+                           class="menu">Previous course materials</a>
+                     </li>
+                  </ul>
+               </ul>
+            </li>
+            <li>
+               <a href="/ourstudents/degrees.html">Degrees</a>
+            </li>
+            <li>
+               <a href="/teaching/handbooks.html">Online Resources &amp; Handbooks</a>
+            </li>
+            <li>
+               <a href="/minerva/">Minerva</a>
+            </li>
+            <li>
+               <a href="/teaching/examinations/">Examinations</a>
+            </li>
+            <li>
+               <a href="/teaching/timetables/">Timetables</a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+
+        <!-- BACK TO TOP -->
+        <div class="container-fluid content-width back-to-top">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="scroll-to-anchor"><i class="fa fa-chevron-up"></i> Back to Top</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container-fluid content-width">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <nav class="site-footer-links">
+                            <ul>
+                                <li><a href="/calendars.html">Calendars</a></li>
+                                <li><a href="http://intranet.cs.ox.ac.uk/home2/">Internal</a></li>
+                                <li><a href="/rssfeeds.html">RSS Feeds</a></li>
+                                <li><a href="/sitemap.html">Sitemap</a></li>
+                                <li><a href="/privacy-policy.html">Privacy &amp; Cookies</a></li>
+                                <!--<li><a href="#">Legal</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+		    <div class="col-sm-6">
+                        <aside class="site-footer-social clearfix">
+                            <ul>
+                                <li><a href="https://www.linkedin.com/company/department-of-computer-science-university-of-oxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="LinkedIn">
+                                    <img src="/img/icon-linkedin.png" alt="LinkedIn">
+                                </a></li>
+                                <li><a href="https://twitter.com/CompSciOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Twitter">
+                                    <img src="/img/icon-twitter.png" alt="Twitter">
+                                </a></li>
+                                <li><a href="https://www.facebook.com/DepartmentOfComputerScienceUniversityOfOxford" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Facebook">
+                                    <img src="/img/icon-facebook.png" alt="Facebook">
+                                </a></li>
+                                <li><a href="https://www.flickr.com/photos/computerscienceoxford/" data-toggle="tooltip" data-placement="left" data-container=".site-footer" title="Flickr">
+                                    <img src="/img/icon-flickr.png" alt="Flickr">
+                                </a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+		<div class="row">
+                    <div class="col-sm-12">
+                        <p class="site-footer-copyright">
+                            <small>&copy; <a href="http://www.ox.ac.uk/">University of Oxford</a> <script>document.write(new Date().getFullYear());</script></small>
+                        </p>
+                        <p class="site-footer-url">
+			    /teaching/courses/2016-2017/databasesystemsimplementation/index.html
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <!-- Load scripts last for efficiency - https://developer.yahoo.com/performance/rules.html#js_bottom -->
+        <script src="/js/common.js?version=2"></script>
+	
+        <script type="text/javascript" src="/javascript/rss-newweb.js?version=9"></script>
+	<script type="text/javascript" src="/javascript/ical-newweb.js?version=3"></script>
+
+	<script src="/javascript/newweb_feeds.js?version=1"></script>
+
+	<script src="/javascript/share.js?version=1"></script>
+	
+	
+	
+	
+	
+    </body>
+</html>
+

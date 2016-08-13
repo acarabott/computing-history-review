@@ -1,0 +1,840 @@
+{
+    "classes": [
+    {
+        "title":"Computer Science Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15090&SEMESTER=M16"
+    },
+    {
+        "title":"Principles of Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15110&SEMESTER=N16"
+    },
+    {
+        "title":"Fundamentals of Programming and Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15112&SEMESTER=M16"
+    },
+    {
+        "title":"Introduction to Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15121&SEMESTER=M16"
+    },
+    {
+        "title":"Principles of Imperative Computation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15122&SEMESTER=M16"
+    },
+    {
+        "title":"Principles of Functional Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15150&SEMESTER=M16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15213&SEMESTER=M16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15513&SEMESTER=M16"
+    },
+    {
+        "title":"Independent Study in the Computer Sciences",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15689&SEMESTER=M16"
+    },
+    {
+        "title":"Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15691&SEMESTER=M16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15697&SEMESTER=M16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15698&SEMESTER=M16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15997&SEMESTER=M16"
+    },
+    {
+        "title":"Practicum in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15998&SEMESTER=M16"
+    },
+    {
+        "title":"Study Abroad",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15050&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Science Co-Op",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15075&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Science Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15090&SEMESTER=S16"
+    },
+    {
+        "title":"Principles of Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15110&SEMESTER=S16"
+    },
+    {
+        "title":"Fundamentals of Programming and Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15112&SEMESTER=S16"
+    },
+    {
+        "title":"Introduction to Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15121&SEMESTER=S16"
+    },
+    {
+        "title":"Principles of Imperative Computation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15122&SEMESTER=S16"
+    },
+    {
+        "title":"Principles of Functional Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15150&SEMESTER=S16"
+    },
+    {
+        "title":"Parallel and Sequential Data Structures and Algorithms",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15210&SEMESTER=S16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15213&SEMESTER=S16"
+    },
+    {
+        "title":"Principles of Software Construction: Objects, Design, and Concurrency",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15214&SEMESTER=S16"
+    },
+    {
+        "title":"Technical Communication for Computer Scientists",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15221&SEMESTER=S16"
+    },
+    {
+        "title":"Great Theoretical Ideas in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15251&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: History of Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15292&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Rapid Prototyping Technologies",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15294&SEMESTER=S16"
+    },
+    {
+        "title":"Competition Programming and Problem Solving",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15295&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Images of Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15296&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Innovating for Underserved Communities: Field Research Basics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15302&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Seminar on Innovating for Underserved Communities",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15303&SEMESTER=S16"
+    },
+    {
+        "title":"Foundations of Programming Languages",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15312&SEMESTER=S16"
+    },
+    {
+        "title":"Cloud Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15319&SEMESTER=S16"
+    },
+    {
+        "title":"Introduction to Computer Music",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15322&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Music Systems and Information Processing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15323&SEMESTER=S16"
+    },
+    {
+        "title":"Embedded Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15348&SEMESTER=S16"
+    },
+    {
+        "title":"Algorithms and Advanced Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15351&SEMESTER=S16"
+    },
+    {
+        "title":"Modern Computer Algebra",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15355&SEMESTER=S16"
+    },
+    {
+        "title":"Research Practicum in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15400&SEMESTER=S16"
+    },
+    {
+        "title":"Operating System Design and Implementation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15410&SEMESTER=S16"
+    },
+    {
+        "title":"Software Engineering Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15413&SEMESTER=S16"
+    },
+    {
+        "title":"Database Applications",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15415&SEMESTER=S16"
+    },
+    {
+        "title":"Parallel Computer Architecture and Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15418&SEMESTER=S16"
+    },
+    {
+        "title":"Foundations of Cyber-Physical Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15424&SEMESTER=S16"
+    },
+    {
+        "title":"Web Application Development",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15437&SEMESTER=S16"
+    },
+    {
+        "title":"Distributed Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15440&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Networks",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15441&SEMESTER=S16"
+    },
+    {
+        "title":"Algorithm Design and Analysis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15451&SEMESTER=S16"
+    },
+    {
+        "title":"Formal Languages, Automata, and Computability",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15453&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Graphics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15462&SEMESTER=S16"
+    },
+    {
+        "title":"Animation Art and Technology",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15465&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Simulation Methods for Animation and Fabrication",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15467&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Truth, Justice, and Algorithms",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15483&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: CMRoboBits: AI and Robots for Daily-Life Problems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15491&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Cognitive Robotics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15494&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Introduction to Theoretical Cryptography",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15503&SEMESTER=S16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15513&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in Computer Science Pedagogy",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15539&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15591&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15592&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15593&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15594&SEMESTER=S16"
+    },
+    {
+        "title":"SCS Honors Undergraduate Research Thesis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15599&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic :Innovating for Underserved Communities: Field Research Basics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15602&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topics: Seminar on Innovating for Underserved Communities",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15603&SEMESTER=S16"
+    },
+    {
+        "title":"Operating System Design and Implementaion",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15605&SEMESTER=S16"
+    },
+    {
+        "title":"Database Applications",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15615&SEMESTER=S16"
+    },
+    {
+        "title":"Parallel Computer Architecture and Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15618&SEMESTER=S16"
+    },
+    {
+        "title":"Cloud Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15619&SEMESTER=S16"
+    },
+    {
+        "title":"Introduction to Computer Music",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15622&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Music Systems and Information Processing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15623&SEMESTER=S16"
+    },
+    {
+        "title":"ST: Foundations of Cyber-Physical Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15624&SEMESTER=S16"
+    },
+    {
+        "title":"Web Application Development",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15637&SEMESTER=S16"
+    },
+    {
+        "title":"Distributed Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15640&SEMESTER=S16"
+    },
+    {
+        "title":"Seminar Data Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15649&SEMESTER=S16"
+    },
+    {
+        "title":"Algorithms and Advanced Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15650&SEMESTER=S16"
+    },
+    {
+        "title":"Algorithm Design and Analysis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15651&SEMESTER=S16"
+    },
+    {
+        "title":"Foundation Programming Languages",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15652&SEMESTER=S16"
+    },
+    {
+        "title":"Interaction and Expression using the Pausch Bridge Lighting",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15661&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Graphics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15662&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Simulation Methods for Animation and Fabrication",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15667&SEMESTER=S16"
+    },
+    {
+        "title":"Masters Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15669&SEMESTER=S16"
+    },
+    {
+        "title":"Independent Study in the Computer Sciences",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15689&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topic: Cognitive Robotics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15694&SEMESTER=S16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15697&SEMESTER=S16"
+    },
+    {
+        "title":"Advanced Cloud Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15719&SEMESTER=S16"
+    },
+    {
+        "title":"Database Systems: Advanced Database Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15721&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Networks: Computer Networks",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15744&SEMESTER=S16"
+    },
+    {
+        "title":"Optimizing Compilers for Modern Architectures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15745&SEMESTER=S16"
+    },
+    {
+        "title":"Graduate Algorithms",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15750&SEMESTER=S16"
+    },
+    {
+        "title":"Graduate Artificial Intelligence",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15780&SEMESTER=S16"
+    },
+    {
+        "title":"CS PhD Alternative Elective",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15801&SEMESTER=S16"
+    },
+    {
+        "title":"CSD PhD Elective",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15802&SEMESTER=S16"
+    },
+    {
+        "title":"Advanced Topics in Computer Security: Formal Foundations of Software Security",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15811&SEMESTER=S16"
+    },
+    {
+        "title":"Programming Language Semantics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15812&SEMESTER=S16"
+    },
+    {
+        "title":"Advanced Topics in Programming Languages: Program Analysis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15819&SEMESTER=S16"
+    },
+    {
+        "title":"Foundations of Cyber Physical Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15824&SEMESTER=S16"
+    },
+    {
+        "title":"Multimedia Databases and Datamining: Multimedia DataBases and Datamining",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15826&SEMESTER=S16"
+    },
+    {
+        "title":"Security & Cryptography: Formal Foundations of Software Security",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15827&SEMESTER=S16"
+    },
+    {
+        "title":"Computation and Deduction",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15851&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topics in Theory:",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15859&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topics in Graphics: Physically Based Character Animation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15869&SEMESTER=S16"
+    },
+    {
+        "title":"Special Topics: Computational Neuroscience: Machine Learning from Neural Cortical Networks",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15874&SEMESTER=S16"
+    },
+    {
+        "title":"V-Unit in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15891&SEMESTER=S16"
+    },
+    {
+        "title":"Truth, Justice, and Algorithms",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15896&SEMESTER=S16"
+    },
+    {
+        "title":"Advanced Topics in Parallel Computing:",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15897&SEMESTER=S16"
+    },
+    {
+        "title":"Computer Science Colloquium",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15990&SEMESTER=S16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15997&SEMESTER=S16"
+    },
+    {
+        "title":"Practicum in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15998&SEMESTER=S16"
+    },
+    {
+        "title":"Study Abroad",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15050&SEMESTER=F16"
+    },
+    {
+        "title":"Discrete Math Primer",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15051&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Science Co-Op",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15075&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Science Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15090&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computing for Creative Practice",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15104&SEMESTER=F16"
+    },
+    {
+        "title":"Principles of Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15110&SEMESTER=F16"
+    },
+    {
+        "title":"Fundamentals of Programming and Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15112&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15121&SEMESTER=F16"
+    },
+    {
+        "title":"Principles of Imperative Computation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15122&SEMESTER=F16"
+    },
+    {
+        "title":"Freshman Immigration Course",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15128&SEMESTER=F16"
+    },
+    {
+        "title":"Freshman Immigration II",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15129&SEMESTER=F16"
+    },
+    {
+        "title":"Great Practical Ideas for Computer Scientists",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15131&SEMESTER=F16"
+    },
+    {
+        "title":"Principles of Functional Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15150&SEMESTER=F16"
+    },
+    {
+        "title":"Mathematical Foundations for Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15151&SEMESTER=F16"
+    },
+    {
+        "title":"Parallel and Sequential Data Structures and Algorithms",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15210&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15213&SEMESTER=F16"
+    },
+    {
+        "title":"Principles of Software Construction: Objects, Design, and Concurrency",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15214&SEMESTER=F16"
+    },
+    {
+        "title":"Great Theoretical Ideas in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15251&SEMESTER=F16"
+    },
+    {
+        "title":"Special Topic: Applied Computational Intelligence Lab",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15291&SEMESTER=F16"
+    },
+    {
+        "title":"Special Topic: Rapid Prototyping Technologies",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15294&SEMESTER=F16"
+    },
+    {
+        "title":"Competition Programming and Problem Solving",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15295&SEMESTER=F16"
+    },
+    {
+        "title":"Research and Innovation in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15300&SEMESTER=F16"
+    },
+    {
+        "title":"Foundations of Software Engineering",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15313&SEMESTER=F16"
+    },
+    {
+        "title":"Constructive Logic",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15317&SEMESTER=F16"
+    },
+    {
+        "title":"Cloud Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15319&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer Music",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15322&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer and Network Security",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15349&SEMESTER=F16"
+    },
+    {
+        "title":"Algorithms and Advanced Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15351&SEMESTER=F16"
+    },
+    {
+        "title":"Probability and Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15359&SEMESTER=F16"
+    },
+    {
+        "title":"Artificial Intelligence: Representation and Problem Solving",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15381&SEMESTER=F16"
+    },
+    {
+        "title":"Computational Perception",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15387&SEMESTER=F16"
+    },
+    {
+        "title":"Practical Data Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15388&SEMESTER=F16"
+    },
+    {
+        "title":"Entrepreneurship for Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15390&SEMESTER=F16"
+    },
+    {
+        "title":"Operating System Design and Implementation",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15410&SEMESTER=F16"
+    },
+    {
+        "title":"Compiler Design",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15411&SEMESTER=F16"
+    },
+    {
+        "title":"Operating System Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15412&SEMESTER=F16"
+    },
+    {
+        "title":"Bug Catching: Automated Program Verification and Testing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15414&SEMESTER=F16"
+    },
+    {
+        "title":"Database Applications",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15415&SEMESTER=F16"
+    },
+    {
+        "title":"Parallel Computer Architecture and Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15418&SEMESTER=F16"
+    },
+    {
+        "title":"Information Security and Privacy",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15421&SEMESTER=F16"
+    },
+    {
+        "title":"Web Application Development",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15437&SEMESTER=F16"
+    },
+    {
+        "title":"Distributed Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15440&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Networks",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15441&SEMESTER=F16"
+    },
+    {
+        "title":"Algorithm Design and Analysis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15451&SEMESTER=F16"
+    },
+    {
+        "title":"Formal Languages, Automata, and Computability",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15453&SEMESTER=F16"
+    },
+    {
+        "title":"Undergraduate Complexity Theory",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15455&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Graphics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15462&SEMESTER=F16"
+    },
+    {
+        "title":"Computational Photography",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15463&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer & Network Security & Applied Cryptography",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15487&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15513&SEMESTER=F16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15591&SEMESTER=F16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15592&SEMESTER=F16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15593&SEMESTER=F16"
+    },
+    {
+        "title":"Independent Study in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15594&SEMESTER=F16"
+    },
+    {
+        "title":"SCS Honors Undergraduate Research Thesis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15599&SEMESTER=F16"
+    },
+    {
+        "title":"Immigration Course",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15604&SEMESTER=F16"
+    },
+    {
+        "title":"Operating System Design and Implementaion",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15605&SEMESTER=F16"
+    },
+    {
+        "title":"Compiler Design",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15611&SEMESTER=F16"
+    },
+    {
+        "title":"Operating System Practicum",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15612&SEMESTER=F16"
+    },
+    {
+        "title":"Bug Catching: Automated Program Verification and Testing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15614&SEMESTER=F16"
+    },
+    {
+        "title":"Database Applications",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15615&SEMESTER=F16"
+    },
+    {
+        "title":"Parallel Computer Architecture and Programming",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15618&SEMESTER=F16"
+    },
+    {
+        "title":"Cloud Computing: Cloud Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15619&SEMESTER=F16"
+    },
+    {
+        "title":"Introduction to Computer Music",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15622&SEMESTER=F16"
+    },
+    {
+        "title":"Web Application Development",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15637&SEMESTER=F16"
+    },
+    {
+        "title":"Distributed Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15640&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Networks",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15641&SEMESTER=F16"
+    },
+    {
+        "title":"Seminar Data Systems: Seminar 1",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15649&SEMESTER=F16"
+    },
+    {
+        "title":"Algorithms and Advanced Data Structures",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15650&SEMESTER=F16"
+    },
+    {
+        "title":"Algorithm Design and Analysis",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15651&SEMESTER=F16"
+    },
+    {
+        "title":"Constructive Logic",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15657&SEMESTER=F16"
+    },
+    {
+        "title":"Interaction and Expression using the Pausch Bridge Lighting",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15661&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Graphics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15662&SEMESTER=F16"
+    },
+    {
+        "title":"Computational Photography",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15663&SEMESTER=F16"
+    },
+    {
+        "title":"Practical Data Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15688&SEMESTER=F16"
+    },
+    {
+        "title":"Independent Study in the Computer Sciences",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15689&SEMESTER=F16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15697&SEMESTER=F16"
+    },
+    {
+        "title":"Advanced Operating Systems and Distributed Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15712&SEMESTER=F16"
+    },
+    {
+        "title":"Storage Systems: Storage Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15746&SEMESTER=F16"
+    },
+    {
+        "title":"A Theorist's Toolkit: A Theorist's Toolkit",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15751&SEMESTER=F16"
+    },
+    {
+        "title":"Visual Computing Systems: Visual Computing Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15769&SEMESTER=F16"
+    },
+    {
+        "title":"Artificial Intelligence: Representation and Problem Solving: REPRES&PROB SOLV",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15781&SEMESTER=F16"
+    },
+    {
+        "title":"CSD PhD Elective",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15802&SEMESTER=F16"
+    },
+    {
+        "title":"CSD PhD Elective",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15803&SEMESTER=F16"
+    },
+    {
+        "title":"CSD PhD Elective",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15804&SEMESTER=F16"
+    },
+    {
+        "title":"Types and Programming Languages",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15814&SEMESTER=F16"
+    },
+    {
+        "title":"Advanced Topics in Logic: Substructural Logics",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15816&SEMESTER=F16"
+    },
+    {
+        "title":"Advanced Topics in Programming Languages: Domain-Specific Languages: Research Seminar in Programming Languages",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15819&SEMESTER=F16"
+    },
+    {
+        "title":"Mobile and Pervasive Computing",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15821&SEMESTER=F16"
+    },
+    {
+        "title":"Special Topics in Software Systems",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15829&SEMESTER=F16"
+    },
+    {
+        "title":"Special Topics in Theory: Spectral Graph Theory",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15859&SEMESTER=F16"
+    },
+    {
+        "title":"Computational Photography",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15862&SEMESTER=F16"
+    },
+    {
+        "title":"Planning, Execution, and Learning: Planning, Execution, and Learning",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15887&SEMESTER=F16"
+    },
+    {
+        "title":"V-Unit in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15891&SEMESTER=F16"
+    },
+    {
+        "title":"Computer Science Colloquium",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15990&SEMESTER=F16"
+    },
+    {
+        "title":"Immigration Course in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15996&SEMESTER=F16"
+    },
+    {
+        "title":"Graduate Reading and Research",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15997&SEMESTER=F16"
+    },
+    {
+        "title":"Practicum in Computer Science",
+        "url": "https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15998&SEMESTER=F16"
+    }
+    ]
+}

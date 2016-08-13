@@ -1,0 +1,36 @@
+First academic yearClose
+During the first year of study, students work on establishing a sound basis in mathematics, programming, and algorithmics while learning the basic principles of computer systems. All first year courses are compulsory and a total of 56 credits are earned.
+First semester:
+Introduction to programming I (7 credits)
+Data structures and algorithms (7 credits)
+Linear algebra (7 credits)
+Discrete mathematics (7 credits)
+Second semester:
+Introduction to programming II (7 credits)
+Algorithms and probability (7 credits)
+Analysis I (7 credits)
+Digital circuits (7 credits)
+ 
+ 
+Second academic yearClose
+During the second year, students are taught important theoretical and methodological principles within core areas of computer science and a total of 62 credits are earned.
+Third semester:
+Analysis II (5 credits)
+Theoretical computer science (7 credits)
+Systems programming and computer architecture (7 credits)
+Numerical methods for computational science and engineering (7 credits)
+Minor & Science in perspective (4 credits)
+Fourth semester:
+Probability and statistics (5 credits)
+Operating systems (7 credits)
+Data modeling and databases (7 credits)
+Formal methods and functional programming (7 credits)
+Minor & Science in perspective (6 credits)
+ 
+Third academic yearClose
+In their third year, Bachelor's students can choose two out of three areas for specialization: systems & software engineering, information & data processing and theoretical computer science. A total of 62 credits are earned.
+Computer Science core (32 credits)
+Computer Science electives (12 credits)
+Minor & Science in perspective (6 credits)
+Seminar (2 credits)
+Bachelor‘s thesis (10 credits)

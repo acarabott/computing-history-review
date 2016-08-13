@@ -1,0 +1,38 @@
+./data/10-princeton/princeton.txt
+	 (1) The Computer History Museum site has a lot of interesting
+Internet history papers.
+
+./data/01-mit/m6a.html
+	Explores and illustrates how evolution explains biology, with an emphasis on computational model building for analyzing evolutionary data.  Covers key concepts of biological evolution, including adaptive evolution, neutral evolution, evolution of sex, genomic conflict, speciation, phylogeny and comparative methods, life's history, coevolution, human evolution, and evolution of disease.
+
+./data/03-oxford/graphics.html
+	 Set 1: Introduction (1 Lecture): What is computer graphics and the purpose of course? Brief history of
+
+./data/03-oxford/intellsystems.html
+	 Introduction to Artificial Intelligence: definition of AI; Turing test; brief history of AI.
+
+./data/03-oxford/logicandproof.html
+	 Introduction. History of mathematical logic in computer science.
+
+./data/05-cmu/special-topic--history-of-computing.html
+	
+This course traces the history of computational devices, pioneers and principles from the early ages through the present. Topics include early computational devices, mechanical computation in the 19th century, events that led to electronic computing advances in the 20th century, the advent of personal computing and the Internet, and the social, legal and ethical impact of modern computational artifacts. This course also includes a history of programming languages, operating systems, processors and computing platforms. Students should have an introductory exposure to programming prior to taking this course.
+
+./data/07-berkeley/berkeley.html
+	An introduction to the beauty and joy of computing. The history, social implications, great principles, and future of computing. Beautiful applications that have changed the world. How computing empowers discovery and progress in other fields. Relevance of computing to the student and society will be emphasized. Students will learn the joy of programming a computer using a friendly, graphical language, and will complete a substantial team programming project related to their interests.
+This course meets the programming prerequisite for 61A. An introduction to the beauty and joy of computing. The history, social implications, great principles, and future of computing. Beautiful applications that have changed the world. How computing empowers discovery and progress in other fields. Relevance of computing to the student and society will be emphasized. Students will learn the joy of programming a computer using a friendly, graphical language, and will complete a substantial team programming project related to their interests.
+
+./data/06-cambridge/CST.pdf
+	    • Unix case study. History. General structure. Unix file system: file abstraction,
+    • be familiar with several key algorithms from the history of numerical analysis;
+    • Further transactions History graphs; good and bad schedules; isolation vs. strict
+    • Unix concepts. Brief review of Unix history and design philosophy, documentation,
+       history and alias functions, security considerations.
+      foundations. Language standardization. History.
+Kay, A.C. (1993). The early history of Smalltalk. ACM SIGPLAN Notices, Vol. 28, No. 3.
+Galbraith, J.K. (1991). A history of economics. Penguin.
+    • understand the history and purpose of the features of contemporary user interfaces.
+    • Introduction. Brief history of NLP research, current applications, components of
+    • The history of electronic commerce. Mail order; EDI; web-based businesses,
+     quantifiers. Brief history. CTL and LTL. PSL for clocked hardware.
+
